@@ -1,0 +1,3443 @@
+3rdparty/everest/library/Hacl_Curve25519.c:412:34: warning: Found calculation inside sizeof(). [sizeofCalculation]
+    (uint32_t)5U * sizeof (input + (uint32_t)5U)[0U]);
+                                 ^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:13:40: style:inconclusive: Function 'FStar_UInt64_eq_mask' argument 1 names different: declaration 'x0' definition 'a'. [funcArgNamesDifferent]
+uint64_t FStar_UInt64_eq_mask(uint64_t a, uint64_t b)
+                                       ^
+3rdparty/everest/library/legacy/Hacl_Curve25519.c:13:47: note: Function 'FStar_UInt64_eq_mask' argument 1 names different: declaration 'x0' definition 'a'.
+extern uint64_t FStar_UInt64_eq_mask(uint64_t x0, uint64_t x1);
+                                              ^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:13:40: note: Function 'FStar_UInt64_eq_mask' argument 1 names different: declaration 'x0' definition 'a'.
+uint64_t FStar_UInt64_eq_mask(uint64_t a, uint64_t b)
+                                       ^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:13:52: style:inconclusive: Function 'FStar_UInt64_eq_mask' argument 2 names different: declaration 'x1' definition 'b'. [funcArgNamesDifferent]
+uint64_t FStar_UInt64_eq_mask(uint64_t a, uint64_t b)
+                                                   ^
+3rdparty/everest/library/legacy/Hacl_Curve25519.c:13:60: note: Function 'FStar_UInt64_eq_mask' argument 2 names different: declaration 'x1' definition 'b'.
+extern uint64_t FStar_UInt64_eq_mask(uint64_t x0, uint64_t x1);
+                                                           ^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:13:52: note: Function 'FStar_UInt64_eq_mask' argument 2 names different: declaration 'x1' definition 'b'.
+uint64_t FStar_UInt64_eq_mask(uint64_t a, uint64_t b)
+                                                   ^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:22:41: style:inconclusive: Function 'FStar_UInt64_gte_mask' argument 1 names different: declaration 'x0' definition 'a'. [funcArgNamesDifferent]
+uint64_t FStar_UInt64_gte_mask(uint64_t a, uint64_t b)
+                                        ^
+3rdparty/everest/library/legacy/Hacl_Curve25519.c:15:48: note: Function 'FStar_UInt64_gte_mask' argument 1 names different: declaration 'x0' definition 'a'.
+extern uint64_t FStar_UInt64_gte_mask(uint64_t x0, uint64_t x1);
+                                               ^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:22:41: note: Function 'FStar_UInt64_gte_mask' argument 1 names different: declaration 'x0' definition 'a'.
+uint64_t FStar_UInt64_gte_mask(uint64_t a, uint64_t b)
+                                        ^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:22:53: style:inconclusive: Function 'FStar_UInt64_gte_mask' argument 2 names different: declaration 'x1' definition 'b'. [funcArgNamesDifferent]
+uint64_t FStar_UInt64_gte_mask(uint64_t a, uint64_t b)
+                                                    ^
+3rdparty/everest/library/legacy/Hacl_Curve25519.c:15:61: note: Function 'FStar_UInt64_gte_mask' argument 2 names different: declaration 'x1' definition 'b'.
+extern uint64_t FStar_UInt64_gte_mask(uint64_t x0, uint64_t x1);
+                                                            ^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:22:53: note: Function 'FStar_UInt64_gte_mask' argument 2 names different: declaration 'x1' definition 'b'.
+uint64_t FStar_UInt64_gte_mask(uint64_t a, uint64_t b)
+                                                    ^
+3rdparty/everest/library/legacy/Hacl_Curve25519.c:457:34: warning: Found calculation inside sizeof(). [sizeofCalculation]
+    (uint32_t)5U * sizeof (input + (uint32_t)5U)[0U]);
+                                 ^
+3rdparty/p256-m/p256-m/p256-m.c:1236:67: style:inconclusive: Function 'p256_ecdh_shared_secret' argument 3 names different: declaration 'pub' definition 'peer'. [funcArgNamesDifferent]
+                            const uint8_t priv[32], const uint8_t peer[64])
+                                                                  ^
+3rdparty/p256-m/p256-m/p256-m.h:59:67: note: Function 'p256_ecdh_shared_secret' argument 3 names different: declaration 'pub' definition 'peer'.
+                            const uint8_t priv[32], const uint8_t pub[64]);
+                                                                  ^
+3rdparty/p256-m/p256-m/p256-m.c:1236:67: note: Function 'p256_ecdh_shared_secret' argument 3 names different: declaration 'pub' definition 'peer'.
+                            const uint8_t priv[32], const uint8_t peer[64])
+                                                                  ^
+library/aes.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 90 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/aesce.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/aesni.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 29 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/aesni.c:69:23: style: Condition '(c&what)!=0' is always false [knownConditionTrueFalse]
+    return (c & what) != 0;
+                      ^
+library/aesni.c:190:26: warning: The address of local variable 'aa' might be accessed at non-zero index. [objectIndex]
+        ((uint8_t *) &aa)[i] = a[15 - i];
+                         ^
+library/aesni.c:190:22: note: Address of variable taken here.
+        ((uint8_t *) &aa)[i] = a[15 - i];
+                     ^
+library/aesni.c:190:26: note: The address of local variable 'aa' might be accessed at non-zero index.
+        ((uint8_t *) &aa)[i] = a[15 - i];
+                         ^
+library/aesni.c:191:26: warning: The address of local variable 'bb' might be accessed at non-zero index. [objectIndex]
+        ((uint8_t *) &bb)[i] = b[15 - i];
+                         ^
+library/aesni.c:191:22: note: Address of variable taken here.
+        ((uint8_t *) &bb)[i] = b[15 - i];
+                     ^
+library/aesni.c:191:26: note: The address of local variable 'bb' might be accessed at non-zero index.
+        ((uint8_t *) &bb)[i] = b[15 - i];
+                         ^
+library/aesni.c:207:33: warning: The address of local variable 'cc' might be accessed at non-zero index. [objectIndex]
+        c[i] = ((uint8_t *) &cc)[15 - i];
+                                ^
+library/aesni.c:207:29: note: Address of variable taken here.
+        c[i] = ((uint8_t *) &cc)[15 - i];
+                            ^
+library/aesni.c:207:33: note: The address of local variable 'cc' might be accessed at non-zero index.
+        c[i] = ((uint8_t *) &cc)[15 - i];
+                                ^
+library/aria.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 35 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/aria.c:344:17: style: The scope of the variable 'u' can be reduced. [variableScope]
+    uint32_t t, u;
+                ^
+library/aria.c:377:24: style: The scope of the variable 'w2' can be reduced. [variableScope]
+    uint32_t w[4][4], *w2;
+                       ^
+library/aria.c:543:19: style: The scope of the variable 'temp' can be reduced. [variableScope]
+    unsigned char temp[MBEDTLS_ARIA_BLOCKSIZE];
+                  ^
+library/aria.c:598:19: style: The scope of the variable 'c' can be reduced. [variableScope]
+    unsigned char c;
+                  ^
+library/aria.c:660:9: style: The scope of the variable 'c' can be reduced. [variableScope]
+    int c, i;
+        ^
+library/asn1parse.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/asn1write.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 20 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/asn1write.c:79:9: style: Condition 'len_is_valid' is always true [knownConditionTrueFalse]
+    if (len_is_valid) {
+        ^
+library/asn1write.c:75:24: note: Assignment 'len_is_valid=1', assigned value is 1
+    int len_is_valid = 1;
+                       ^
+library/asn1write.c:79:9: note: Condition 'len_is_valid' is always true
+    if (len_is_valid) {
+        ^
+library/asn1write.c:323:26: style: The scope of the variable 'cur_byte' can be reduced. [variableScope]
+    const unsigned char *cur_byte;
+                         ^
+library/asn1write.c:324:19: style: The scope of the variable 'cur_byte_shifted' can be reduced. [variableScope]
+    unsigned char cur_byte_shifted;
+                  ^
+library/asn1write.c:325:19: style: The scope of the variable 'bit' can be reduced. [variableScope]
+    unsigned char bit;
+                  ^
+library/asn1write.c:169:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/asn1write.c:183:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/asn1write.c:205:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/asn1write.c:228:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/asn1write.c:246:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/asn1write.c:285:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/asn1write.c:364:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/asn1write.c:397:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/asn1write.c:162:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/base64.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 137 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/base64.c:43:17: style: The scope of the variable 'C3' can be reduced. [variableScope]
+    int C1, C2, C3;
+                ^
+library/base64.c:114:9: style: The scope of the variable 'spaces_present' can be reduced. [variableScope]
+    int spaces_present = 0;
+        ^
+library/base64.c:200:24: style: Checking if unsigned expression 'equals' is less than zero. [unsignedLessThanZero]
+            if (equals <= 0) {
+                       ^
+library/bignum.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 169 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/bignum.c:391:15: style: The scope of the variable 'j' can be reduced. [variableScope]
+    size_t i, j, slen, n;
+              ^
+library/bignum.c:391:24: style: The scope of the variable 'n' can be reduced. [variableScope]
+    size_t i, j, slen, n;
+                       ^
+library/bignum.c:232:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:277:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:321:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:444:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:484:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:569:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:688:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:717:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:763:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:949:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:1039:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:1152:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:1194:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:1418:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:1470:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:1609:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:1892:1: style: Label 'cleanup' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+cleanup:
+^
+library/bignum.c:2047:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:1041:12: error: Uninitialized variable: ret [uninitvar]
+    return ret;
+           ^
+library/bignum.c:1015:9: style: Variable 'ret' is not assigned a value. [unassignedVariable]
+    int ret, s;
+        ^
+library/bignum.c:665:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:2224:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum.c:2629:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/bignum.c:2625:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/bignum.c:2629:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/bignum_core.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 165 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/bignum_core.c:588:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum_core.c:629:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum_core.c:290:55: style:inconclusive: Function 'mbedtls_mpi_core_write_be' argument 1 names different: declaration 'A' definition 'X'. [funcArgNamesDifferent]
+int mbedtls_mpi_core_write_be(const mbedtls_mpi_uint *X,
+                                                      ^
+library/bignum_core.h:279:55: note: Function 'mbedtls_mpi_core_write_be' argument 1 names different: declaration 'A' definition 'X'.
+int mbedtls_mpi_core_write_be(const mbedtls_mpi_uint *A,
+                                                      ^
+library/bignum_core.c:290:55: note: Function 'mbedtls_mpi_core_write_be' argument 1 names different: declaration 'A' definition 'X'.
+int mbedtls_mpi_core_write_be(const mbedtls_mpi_uint *X,
+                                                      ^
+library/bignum_core.c:291:38: style:inconclusive: Function 'mbedtls_mpi_core_write_be' argument 2 names different: declaration 'A_limbs' definition 'X_limbs'. [funcArgNamesDifferent]
+                              size_t X_limbs,
+                                     ^
+library/bignum_core.h:280:38: note: Function 'mbedtls_mpi_core_write_be' argument 2 names different: declaration 'A_limbs' definition 'X_limbs'.
+                              size_t A_limbs,
+                                     ^
+library/bignum_core.c:291:38: note: Function 'mbedtls_mpi_core_write_be' argument 2 names different: declaration 'A_limbs' definition 'X_limbs'.
+                              size_t X_limbs,
+                                     ^
+library/bignum_core.c:461:57: style:inconclusive: Function 'mbedtls_mpi_core_mla' argument 1 names different: declaration 'X' definition 'd'. [funcArgNamesDifferent]
+mbedtls_mpi_uint mbedtls_mpi_core_mla(mbedtls_mpi_uint *d, size_t d_len,
+                                                        ^
+library/bignum_core.h:415:57: note: Function 'mbedtls_mpi_core_mla' argument 1 names different: declaration 'X' definition 'd'.
+mbedtls_mpi_uint mbedtls_mpi_core_mla(mbedtls_mpi_uint *X, size_t X_limbs,
+                                                        ^
+library/bignum_core.c:461:57: note: Function 'mbedtls_mpi_core_mla' argument 1 names different: declaration 'X' definition 'd'.
+mbedtls_mpi_uint mbedtls_mpi_core_mla(mbedtls_mpi_uint *d, size_t d_len,
+                                                        ^
+library/bignum_core.c:461:67: style:inconclusive: Function 'mbedtls_mpi_core_mla' argument 2 names different: declaration 'X_limbs' definition 'd_len'. [funcArgNamesDifferent]
+mbedtls_mpi_uint mbedtls_mpi_core_mla(mbedtls_mpi_uint *d, size_t d_len,
+                                                                  ^
+library/bignum_core.h:415:67: note: Function 'mbedtls_mpi_core_mla' argument 2 names different: declaration 'X_limbs' definition 'd_len'.
+mbedtls_mpi_uint mbedtls_mpi_core_mla(mbedtls_mpi_uint *X, size_t X_limbs,
+                                                                  ^
+library/bignum_core.c:461:67: note: Function 'mbedtls_mpi_core_mla' argument 2 names different: declaration 'X_limbs' definition 'd_len'.
+mbedtls_mpi_uint mbedtls_mpi_core_mla(mbedtls_mpi_uint *d, size_t d_len,
+                                                                  ^
+library/bignum_core.c:462:63: style:inconclusive: Function 'mbedtls_mpi_core_mla' argument 3 names different: declaration 'A' definition 's'. [funcArgNamesDifferent]
+                                      const mbedtls_mpi_uint *s, size_t s_len,
+                                                              ^
+library/bignum_core.h:416:63: note: Function 'mbedtls_mpi_core_mla' argument 3 names different: declaration 'A' definition 's'.
+                                      const mbedtls_mpi_uint *A, size_t A_limbs,
+                                                              ^
+library/bignum_core.c:462:63: note: Function 'mbedtls_mpi_core_mla' argument 3 names different: declaration 'A' definition 's'.
+                                      const mbedtls_mpi_uint *s, size_t s_len,
+                                                              ^
+library/bignum_core.c:462:73: style:inconclusive: Function 'mbedtls_mpi_core_mla' argument 4 names different: declaration 'A_limbs' definition 's_len'. [funcArgNamesDifferent]
+                                      const mbedtls_mpi_uint *s, size_t s_len,
+                                                                        ^
+library/bignum_core.h:416:73: note: Function 'mbedtls_mpi_core_mla' argument 4 names different: declaration 'A_limbs' definition 's_len'.
+                                      const mbedtls_mpi_uint *A, size_t A_limbs,
+                                                                        ^
+library/bignum_core.c:462:73: note: Function 'mbedtls_mpi_core_mla' argument 4 names different: declaration 'A_limbs' definition 's_len'.
+                                      const mbedtls_mpi_uint *s, size_t s_len,
+                                                                        ^
+library/bignum_core.c:613:12: style:inconclusive: Function 'mbedtls_mpi_core_fill_random' argument 3 names different: declaration 'bytes' definition 'n_bytes'. [funcArgNamesDifferent]
+    size_t n_bytes,
+           ^
+library/bignum_core.h:549:41: note: Function 'mbedtls_mpi_core_fill_random' argument 3 names different: declaration 'bytes' definition 'n_bytes'.
+                                 size_t bytes,
+                                        ^
+library/bignum_core.c:613:12: note: Function 'mbedtls_mpi_core_fill_random' argument 3 names different: declaration 'bytes' definition 'n_bytes'.
+    size_t n_bytes,
+           ^
+library/bignum_core.c:842:60: style:inconclusive: Function 'mbedtls_mpi_core_sub_int' argument 3 names different: declaration 'b' definition 'c'. [funcArgNamesDifferent]
+                                          mbedtls_mpi_uint c,  /* doubles as carry */
+                                                           ^
+library/bignum_core.h:657:60: note: Function 'mbedtls_mpi_core_sub_int' argument 3 names different: declaration 'b' definition 'c'.
+                                          mbedtls_mpi_uint b,
+                                                           ^
+library/bignum_core.c:842:60: note: Function 'mbedtls_mpi_core_sub_int' argument 3 names different: declaration 'b' definition 'c'.
+                                          mbedtls_mpi_uint c,  /* doubles as carry */
+                                                           ^
+library/bignum_mod.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 136 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/bignum_mod.c:257:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/bignum_mod_raw.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 136 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/camellia.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 27 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/camellia.c:536:19: style: The scope of the variable 'temp' can be reduced. [variableScope]
+    unsigned char temp[16];
+                  ^
+library/camellia.c:986:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/camellia.c:931:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/camellia.c:986:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/camellia.c:640:9: style: The scope of the variable 'c' can be reduced. [variableScope]
+    int c, i;
+        ^
+library/ccm.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ccm.c:272:18: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t olen, use_len, offset;
+                 ^
+library/ccm.c:272:27: style: The scope of the variable 'offset' can be reduced. [variableScope]
+    size_t olen, use_len, offset;
+                          ^
+library/ccm.c:271:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ccm.c:657:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/chacha20.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/chacha20.c:476:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/chachapoly.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/chachapoly.c:445:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/cipher.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 60 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/cipher.c:72:40: style: The scope of the variable 'def' can be reduced. [variableScope]
+    const mbedtls_cipher_definition_t *def;
+                                       ^
+library/cipher.c:73:10: style: The scope of the variable 'type' can be reduced. [variableScope]
+    int *type;
+         ^
+library/cipher.c:522:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/cipher_wrap.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 131 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/cmac.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 28 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/cmac.c:929:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/constant_time.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 147 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/constant_time.c:140:21: style: Opposite expression on both sides of '|'. [oppositeExpression]
+    return -((value | -value) >> (sizeof(value) * 8 - 1));
+                    ^
+library/constant_time.c:174:21: style: Opposite expression on both sides of '|'. [oppositeExpression]
+    return -((value | -value) >> (sizeof(value) * 8 - 1));
+                    ^
+library/constant_time.c:741:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/constant_time.c:773:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/constant_time.c:788:16: style: Variable 'cond' is assigned a value that is never used. [unreadVariable]
+    ret = cond = done = 0;
+               ^
+library/ctr_drbg.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 23 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ctr_drbg.c:861:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/ctr_drbg.c:854:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/ctr_drbg.c:861:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/ctr_drbg.c:885:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/ctr_drbg.c:881:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/ctr_drbg.c:885:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/debug.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 28 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/des.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 26 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/des.c:510:21: error: Array 'esk[96]' accessed at index -1, which is out of bounds. [negativeIndex]
+        dsk[i] = esk[30 - i];
+                    ^
+library/des.c:517:12: error: Array 'esk[96]' accessed at index 96, which is out of bounds. [arrayIndexOutOfBounds]
+        esk[i + 65] = esk[i + 1];
+           ^
+library/des.c:520:12: error: Array 'dsk[96]' accessed at index 96, which is out of bounds. [arrayIndexOutOfBounds]
+        dsk[i + 65] = dsk[i + 1];
+           ^
+library/des.c:569:26: error: Array 'esk[96]' accessed at index -1, which is out of bounds. [negativeIndex]
+        dsk[i + 64] = esk[30 - i];
+                         ^
+library/des.c:570:12: error: Array 'dsk[96]' accessed at index 96, which is out of bounds. [arrayIndexOutOfBounds]
+        dsk[i + 65] = esk[31 - i];
+           ^
+library/des.c:1038:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/des.c:934:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/des.c:1038:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/dhm.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 27 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/dhm.c:105:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/dhm.c:188:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/dhm.c:228:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/dhm.c:408:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/dhm.c:457:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/dhm.c:189:12: error: Uninitialized variable: ret [uninitvar]
+    return ret;
+           ^
+library/dhm.c:183:9: style: Variable 'ret' is not assigned a value. [unassignedVariable]
+    int ret;
+        ^
+library/dhm.c:358:9: style: Variable 'ret' is not assigned a value. [unassignedVariable]
+    int ret;
+        ^
+library/ecdh.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 25 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ecdh.c:79:9: style: Condition '!restarting' is always true [knownConditionTrueFalse]
+    if (!restarting) {
+        ^
+library/ecdh.c:74:22: note: Assignment 'restarting=0', assigned value is 0
+    int restarting = 0;
+                     ^
+library/ecdh.c:79:9: note: Condition '!restarting' is always true
+    if (!restarting) {
+        ^
+library/ecdh.c:86:1: style: Label 'cleanup' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+cleanup:
+^
+library/ecdh.c:452:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ecdsa.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ecdsa.c:232:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecdsa.c:690:1: style: Label 'cleanup' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+cleanup:
+^
+library/ecdsa.c:625:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ecdsa.c:470:1: style: Label 'cleanup' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+cleanup:
+^
+library/ecjpake.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 23 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ecjpake.c:130:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecjpake.c:248:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecjpake.c:453:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecjpake.c:487:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecjpake.c:521:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecjpake.c:569:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecjpake.c:655:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecjpake.c:764:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecjpake.c:1094:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/ecjpake.c:1090:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/ecjpake.c:1094:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/ecjpake.c:1137:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/ecjpake.c:1127:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/ecjpake.c:1137:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/ecjpake.c:1027:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/ecp.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 123 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ecp_curves.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 235 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/entropy.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 32 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/entropy_poll.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 36 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/gcm.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 34 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/gcm.c:271:48: style: Condition '(uint64_t)iv_len>>61!=0' is always true [knownConditionTrueFalse]
+    if (iv_len == 0 || (uint64_t) iv_len >> 61 != 0) {
+                                               ^
+library/gcm.c:271:16: note: Assuming that condition 'iv_len==0' is not redundant
+    if (iv_len == 0 || (uint64_t) iv_len >> 61 != 0) {
+               ^
+library/gcm.c:271:48: note: Condition '(uint64_t)iv_len>>61!=0' is always true
+    if (iv_len == 0 || (uint64_t) iv_len >> 61 != 0) {
+                                               ^
+library/gcm.c:264:19: style: The scope of the variable 'work_buf' can be reduced. [variableScope]
+    unsigned char work_buf[16];
+                  ^
+library/gcm.c:265:26: style: The scope of the variable 'p' can be reduced. [variableScope]
+    const unsigned char *p;
+                         ^
+library/gcm.c:266:12: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t use_len, olen = 0;
+           ^
+library/gcm.c:267:14: style: The scope of the variable 'iv_bits' can be reduced. [variableScope]
+    uint64_t iv_bits;
+             ^
+library/gcm.c:336:12: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t use_len, offset;
+           ^
+library/gcm.c:511:19: style: The scope of the variable 'work_buf' can be reduced. [variableScope]
+    unsigned char work_buf[16];
+                  ^
+library/gcm.c:425:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/hkdf.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/hmac_drbg.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 23 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/hmac_drbg.c:614:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/hmac_drbg.c:607:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/hmac_drbg.c:614:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/hmac_drbg.c:636:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/hmac_drbg.c:632:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/hmac_drbg.c:636:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/lmots.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 25 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/lmots.c:434:70: style:inconclusive: Function 'mbedtls_lmots_import_public_key' argument 3 names different: declaration 'key_size' definition 'key_len'. [funcArgNamesDifferent]
+                                    const unsigned char *key, size_t key_len)
+                                                                     ^
+library/lmots.h:129:70: note: Function 'mbedtls_lmots_import_public_key' argument 3 names different: declaration 'key_size' definition 'key_len'.
+                                    const unsigned char *key, size_t key_size);
+                                                                     ^
+library/lmots.c:434:70: note: Function 'mbedtls_lmots_import_public_key' argument 3 names different: declaration 'key_size' definition 'key_len'.
+                                    const unsigned char *key, size_t key_len)
+                                                                     ^
+library/lms.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/lms.c:322:18: style: The scope of the variable 'parent_node_id' can be reduced. [variableScope]
+    unsigned int parent_node_id;
+                 ^
+library/lms.c:554:18: style: The scope of the variable 'idx' can be reduced. [variableScope]
+    unsigned int idx;
+                 ^
+library/lms.c:454:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/md.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 77 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/md5.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/md5.c:219:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/md5.c:395:16: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int i, ret = 0;
+               ^
+library/memory_buffer_alloc.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 25 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/memory_buffer_alloc.c:689:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/memory_buffer_alloc.c:685:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/memory_buffer_alloc.c:689:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/memory_buffer_alloc.c:717:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (verbose != 0) {
+                ^
+library/memory_buffer_alloc.c:713:17: note: First condition
+    if (verbose != 0) {
+                ^
+library/memory_buffer_alloc.c:717:17: note: Second condition
+    if (verbose != 0) {
+                ^
+library/mps_reader.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/mps_reader.c:164:24: style: The scope of the variable 'copy_to_acc' can be reduced. [variableScope]
+    mbedtls_mps_size_t copy_to_acc;
+                       ^
+library/mps_reader.c:416:24: style: The scope of the variable 'acc_len' can be reduced. [variableScope]
+    mbedtls_mps_size_t acc_len, frag_offset, frag_len;
+                       ^
+library/mps_reader.c:140:49: style:inconclusive: Function 'mbedtls_mps_reader_init' argument 1 names different: declaration 'reader' definition 'rd'. [funcArgNamesDifferent]
+int mbedtls_mps_reader_init(mbedtls_mps_reader *rd,
+                                                ^
+library/mps_reader.h:255:49: note: Function 'mbedtls_mps_reader_init' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_init(mbedtls_mps_reader *reader,
+                                                ^
+library/mps_reader.c:140:49: note: Function 'mbedtls_mps_reader_init' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_init(mbedtls_mps_reader *rd,
+                                                ^
+library/mps_reader.c:153:49: style:inconclusive: Function 'mbedtls_mps_reader_free' argument 1 names different: declaration 'reader' definition 'rd'. [funcArgNamesDifferent]
+int mbedtls_mps_reader_free(mbedtls_mps_reader *rd)
+                                                ^
+library/mps_reader.h:267:49: note: Function 'mbedtls_mps_reader_free' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_free(mbedtls_mps_reader *reader);
+                                                ^
+library/mps_reader.c:153:49: note: Function 'mbedtls_mps_reader_free' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_free(mbedtls_mps_reader *rd)
+                                                ^
+library/mps_reader.c:160:49: style:inconclusive: Function 'mbedtls_mps_reader_feed' argument 1 names different: declaration 'reader' definition 'rd'. [funcArgNamesDifferent]
+int mbedtls_mps_reader_feed(mbedtls_mps_reader *rd,
+                                                ^
+library/mps_reader.h:292:49: note: Function 'mbedtls_mps_reader_feed' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_feed(mbedtls_mps_reader *reader,
+                                                ^
+library/mps_reader.c:160:49: note: Function 'mbedtls_mps_reader_feed' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_feed(mbedtls_mps_reader *rd,
+                                                ^
+library/mps_reader.c:161:44: style:inconclusive: Function 'mbedtls_mps_reader_feed' argument 2 names different: declaration 'buf' definition 'new_frag'. [funcArgNamesDifferent]
+                            unsigned char *new_frag,
+                                           ^
+library/mps_reader.h:293:44: note: Function 'mbedtls_mps_reader_feed' argument 2 names different: declaration 'buf' definition 'new_frag'.
+                            unsigned char *buf,
+                                           ^
+library/mps_reader.c:161:44: note: Function 'mbedtls_mps_reader_feed' argument 2 names different: declaration 'buf' definition 'new_frag'.
+                            unsigned char *new_frag,
+                                           ^
+library/mps_reader.c:162:48: style:inconclusive: Function 'mbedtls_mps_reader_feed' argument 3 names different: declaration 'buflen' definition 'new_frag_len'. [funcArgNamesDifferent]
+                            mbedtls_mps_size_t new_frag_len)
+                                               ^
+library/mps_reader.h:294:48: note: Function 'mbedtls_mps_reader_feed' argument 3 names different: declaration 'buflen' definition 'new_frag_len'.
+                            mbedtls_mps_size_t buflen);
+                                               ^
+library/mps_reader.c:162:48: note: Function 'mbedtls_mps_reader_feed' argument 3 names different: declaration 'buflen' definition 'new_frag_len'.
+                            mbedtls_mps_size_t new_frag_len)
+                                               ^
+library/mps_reader.c:229:48: style:inconclusive: Function 'mbedtls_mps_reader_get' argument 1 names different: declaration 'reader' definition 'rd'. [funcArgNamesDifferent]
+int mbedtls_mps_reader_get(mbedtls_mps_reader *rd,
+                                               ^
+library/mps_reader.h:354:48: note: Function 'mbedtls_mps_reader_get' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_get(mbedtls_mps_reader *reader,
+                                               ^
+library/mps_reader.c:229:48: note: Function 'mbedtls_mps_reader_get' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_get(mbedtls_mps_reader *rd,
+                                               ^
+library/mps_reader.c:397:51: style:inconclusive: Function 'mbedtls_mps_reader_commit' argument 1 names different: declaration 'reader' definition 'rd'. [funcArgNamesDifferent]
+int mbedtls_mps_reader_commit(mbedtls_mps_reader *rd)
+                                                  ^
+library/mps_reader.h:378:51: note: Function 'mbedtls_mps_reader_commit' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_commit(mbedtls_mps_reader *reader);
+                                                  ^
+library/mps_reader.c:397:51: note: Function 'mbedtls_mps_reader_commit' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_commit(mbedtls_mps_reader *rd)
+                                                  ^
+library/mps_reader.c:411:52: style:inconclusive: Function 'mbedtls_mps_reader_reclaim' argument 1 names different: declaration 'reader' definition 'rd'. [funcArgNamesDifferent]
+int mbedtls_mps_reader_reclaim(mbedtls_mps_reader *rd,
+                                                   ^
+library/mps_reader.h:311:52: note: Function 'mbedtls_mps_reader_reclaim' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_reclaim(mbedtls_mps_reader *reader,
+                                                   ^
+library/mps_reader.c:411:52: note: Function 'mbedtls_mps_reader_reclaim' argument 1 names different: declaration 'reader' definition 'rd'.
+int mbedtls_mps_reader_reclaim(mbedtls_mps_reader *rd,
+                                                   ^
+library/mps_trace.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/mps_trace.c:90:24: warning: Either the condition 'id>(int)(sizeof(colors)/sizeof(*colors))' is redundant or the array 'colors[7]' is accessed at index 7, which is out of bounds. [arrayIndexOutOfBoundsCond]
+    printf("%s", colors[id]);
+                       ^
+library/mps_trace.c:87:12: note: Assuming that condition 'id>(int)(sizeof(colors)/sizeof(*colors))' is not redundant
+    if (id > (int) (sizeof(colors) / sizeof(*colors))) {
+           ^
+library/mps_trace.c:90:24: note: Array index out of bounds
+    printf("%s", colors[id]);
+                       ^
+library/net_sockets.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 33 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/net_sockets.c:180:31: style: Condition '(ret=net_prepare())!=0' is always false [knownConditionTrueFalse]
+    if ((ret = net_prepare()) != 0) {
+                              ^
+library/net_sockets.c:226:31: style: Condition '(ret=net_prepare())!=0' is always false [knownConditionTrueFalse]
+    if ((ret = net_prepare()) != 0) {
+                              ^
+library/nist_kw.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/oid.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 56 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/oid.c:975:9: warning: The address of local variable 'out_ptr' might be accessed at non-zero index. [objectIndex]
+    (*p)[num_bytes - 1] = (unsigned char) (value & 0x7f);
+        ^
+library/oid.c:1064:41: note: Address of variable taken here.
+    ret = oid_subidentifier_encode_into(&out_ptr, out_bound,
+                                        ^
+library/oid.c:1064:41: note: Calling function 'oid_subidentifier_encode_into', 1st argument '&out_ptr' value is lifetime=out_ptr
+    ret = oid_subidentifier_encode_into(&out_ptr, out_bound,
+                                        ^
+library/oid.c:972:31: note: Assuming condition is Assuming condition is false
+    if ((size_t) (bound - *p) < num_bytes) {
+                              ^
+library/oid.c:975:9: note: The address of local variable 'out_ptr' might be accessed at non-zero index.
+    (*p)[num_bytes - 1] = (unsigned char) (value & 0x7f);
+        ^
+library/oid.c:975:9: warning: The address of local variable 'out_ptr' might be accessed at non-zero index. [objectIndex]
+    (*p)[num_bytes - 1] = (unsigned char) (value & 0x7f);
+        ^
+library/oid.c:1084:45: note: Address of variable taken here.
+        ret = oid_subidentifier_encode_into(&out_ptr, out_bound, val);
+                                            ^
+library/oid.c:1084:45: note: Calling function 'oid_subidentifier_encode_into', 1st argument '&out_ptr' value is lifetime=out_ptr
+        ret = oid_subidentifier_encode_into(&out_ptr, out_bound, val);
+                                            ^
+library/oid.c:972:31: note: Assuming condition is Assuming condition is false
+    if ((size_t) (bound - *p) < num_bytes) {
+                              ^
+library/oid.c:975:9: note: The address of local variable 'out_ptr' might be accessed at non-zero index.
+    (*p)[num_bytes - 1] = (unsigned char) (value & 0x7f);
+        ^
+library/oid.c:979:13: warning: The address of local variable 'out_ptr' might be accessed at non-zero index. [objectIndex]
+        (*p)[num_bytes - i] = 0x80 | (unsigned char) (value & 0x7f);
+            ^
+library/oid.c:1064:41: note: Address of variable taken here.
+    ret = oid_subidentifier_encode_into(&out_ptr, out_bound,
+                                        ^
+library/oid.c:1064:41: note: Calling function 'oid_subidentifier_encode_into', 1st argument '&out_ptr' value is lifetime=out_ptr
+    ret = oid_subidentifier_encode_into(&out_ptr, out_bound,
+                                        ^
+library/oid.c:972:31: note: Assuming condition is Assuming condition is false
+    if ((size_t) (bound - *p) < num_bytes) {
+                              ^
+library/oid.c:979:13: note: The address of local variable 'out_ptr' might be accessed at non-zero index.
+        (*p)[num_bytes - i] = 0x80 | (unsigned char) (value & 0x7f);
+            ^
+library/oid.c:979:13: warning: The address of local variable 'out_ptr' might be accessed at non-zero index. [objectIndex]
+        (*p)[num_bytes - i] = 0x80 | (unsigned char) (value & 0x7f);
+            ^
+library/oid.c:1084:45: note: Address of variable taken here.
+        ret = oid_subidentifier_encode_into(&out_ptr, out_bound, val);
+                                            ^
+library/oid.c:1084:45: note: Calling function 'oid_subidentifier_encode_into', 1st argument '&out_ptr' value is lifetime=out_ptr
+        ret = oid_subidentifier_encode_into(&out_ptr, out_bound, val);
+                                            ^
+library/oid.c:972:31: note: Assuming condition is Assuming condition is false
+    if ((size_t) (bound - *p) < num_bytes) {
+                              ^
+library/oid.c:979:13: note: The address of local variable 'out_ptr' might be accessed at non-zero index.
+        (*p)[num_bytes - i] = 0x80 | (unsigned char) (value & 0x7f);
+            ^
+library/oid.c:871:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/padlock.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/padlock.c:42:18: style: The scope of the variable 'edx' can be reduced. [variableScope]
+    int ebx = 0, edx = 0;
+                 ^
+library/pem.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 25 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/pem.c:62:18: style: The scope of the variable 'k' can be reduced. [variableScope]
+    size_t i, j, k;
+                 ^
+library/pem.c:490:12: style: The scope of the variable 'len' can be reduced. [variableScope]
+    size_t len = 0, use_len, add_len = 0;
+           ^
+library/pem.c:490:16: style: Variable 'len' is assigned a value that is never used. [unreadVariable]
+    size_t len = 0, use_len, add_len = 0;
+               ^
+library/pk.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 50 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/pk_wrap.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 73 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/pk_wrap.c:1161:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/pk_wrap.c:1188:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/pk_wrap.c:1450:53: style:inconclusive: Function 'ecdsa_verify_rs_wrap' argument 1 names different: declaration 'ctx' definition 'pk'. [funcArgNamesDifferent]
+static int ecdsa_verify_rs_wrap(mbedtls_pk_context *pk, mbedtls_md_type_t md_alg,
+                                                    ^
+library/pk_wrap.c:1087:53: note: Function 'ecdsa_verify_rs_wrap' argument 1 names different: declaration 'ctx' definition 'pk'.
+static int ecdsa_verify_rs_wrap(mbedtls_pk_context *ctx, mbedtls_md_type_t md_alg,
+                                                    ^
+library/pk_wrap.c:1450:53: note: Function 'ecdsa_verify_rs_wrap' argument 1 names different: declaration 'ctx' definition 'pk'.
+static int ecdsa_verify_rs_wrap(mbedtls_pk_context *pk, mbedtls_md_type_t md_alg,
+                                                    ^
+library/pk_wrap.c:1470:51: style:inconclusive: Function 'ecdsa_sign_rs_wrap' argument 1 names different: declaration 'ctx' definition 'pk'. [funcArgNamesDifferent]
+static int ecdsa_sign_rs_wrap(mbedtls_pk_context *pk, mbedtls_md_type_t md_alg,
+                                                  ^
+library/pk_wrap.c:1092:51: note: Function 'ecdsa_sign_rs_wrap' argument 1 names different: declaration 'ctx' definition 'pk'.
+static int ecdsa_sign_rs_wrap(mbedtls_pk_context *ctx, mbedtls_md_type_t md_alg,
+                                                  ^
+library/pk_wrap.c:1470:51: note: Function 'ecdsa_sign_rs_wrap' argument 1 names different: declaration 'ctx' definition 'pk'.
+static int ecdsa_sign_rs_wrap(mbedtls_pk_context *pk, mbedtls_md_type_t md_alg,
+                                                  ^
+library/pkcs12.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/pkcs12.c:205:12: style: The scope of the variable 'use_len' can be reduced. [variableScope]
+    size_t use_len;
+           ^
+library/pkcs5.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 23 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/pkcs7.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/pkcs7.c:258:24: style: The scope of the variable 'name_prv' can be reduced. [variableScope]
+    mbedtls_x509_name *name_prv;
+                       ^
+library/pkparse.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 51 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/pkparse.c:1437:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return 0;
+    ^
+library/pkparse.c:1558:30: style: Unused variable: pk_info [unusedVariable]
+    const mbedtls_pk_info_t *pk_info;
+                             ^
+library/pkparse.c:101:16: style: Condition '*n+1==0' is always false [knownConditionTrueFalse]
+    if (*n + 1 == 0 ||
+               ^
+library/pkparse.c:93:27: note: Assuming that condition '(size=ftell(f))==-1' is not redundant
+    if ((size = ftell(f)) == -1) {
+                          ^
+library/pkparse.c:99:10: note: Assignment '*n=(unsigned long)size', assigned value is -1
+    *n = (size_t) size;
+         ^
+library/pkparse.c:101:16: note: Condition '*n+1==0' is always false
+    if (*n + 1 == 0 ||
+               ^
+library/pkwrite.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 47 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/pkwrite.c:451:17: style: The comparison 'oid_len == 0' is always true. [knownConditionTrueFalse]
+    if (oid_len == 0) {
+                ^
+library/pkwrite.c:377:44: note: 'oid_len' is assigned value '0' here.
+    size_t len = 0, par_len = 0, oid_len = 0;
+                                           ^
+library/pkwrite.c:451:17: note: The comparison 'oid_len == 0' is always true.
+    if (oid_len == 0) {
+                ^
+library/pkwrite.c:369:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return (int) len;
+    ^
+library/pkwrite.c:737:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return (int) len;
+    ^
+library/pkwrite.c:349:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/pkwrite.c:350:16: style: Variable 'len' is assigned a value that is never used. [unreadVariable]
+    size_t len = 0;
+               ^
+library/pkwrite.c:374:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/pkwrite.c:691:16: style: Variable 'len' is assigned a value that is never used. [unreadVariable]
+    size_t len = 0;
+               ^
+library/pkwrite.c:706:7: style: Variable 'c' is assigned a value that is never used. [unreadVariable]
+    c = buf + size;
+      ^
+library/pkwrite.c:434:17: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (pk_type == MBEDTLS_PK_ECKEY) {
+                ^
+library/pkwrite.c:409:17: note: First condition
+    if (pk_type == MBEDTLS_PK_ECKEY) {
+                ^
+library/pkwrite.c:434:17: note: Second condition
+    if (pk_type == MBEDTLS_PK_ECKEY) {
+                ^
+library/pkwrite.c:532:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+library/pkwrite.c:65:29: style: Variable 'id' is assigned a value that is never used. [unreadVariable]
+    mbedtls_ecp_group_id id = mbedtls_pk_get_group_id(pk);
+                            ^
+library/pkwrite.c:199:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/platform.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 46 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/platform.c:379:0: information: Skipping configuration 'MBEDTLS_ENTROPY_NV_SEED;MBEDTLS_PLATFORM_C;MBEDTLS_PLATFORM_NV_SEED_ALT;MBEDTLS_PLATFORM_STD_NV_SEED_READ' since the value of 'MBEDTLS_PLATFORM_STD_NV_SEED_READ' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    MBEDTLS_PLATFORM_STD_NV_SEED_READ;
+^
+library/platform.c:381:0: information: Skipping configuration 'MBEDTLS_ENTROPY_NV_SEED;MBEDTLS_PLATFORM_C;MBEDTLS_PLATFORM_NV_SEED_ALT;MBEDTLS_PLATFORM_STD_NV_SEED_WRITE' since the value of 'MBEDTLS_PLATFORM_STD_NV_SEED_WRITE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    MBEDTLS_PLATFORM_STD_NV_SEED_WRITE;
+^
+library/platform.c:289:0: information: Skipping configuration 'MBEDTLS_HAVE_TIME;MBEDTLS_PLATFORM_C;MBEDTLS_PLATFORM_STD_TIME;MBEDTLS_PLATFORM_TIME_ALT' since the value of 'MBEDTLS_PLATFORM_STD_TIME' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+mbedtls_time_t (*mbedtls_time)(mbedtls_time_t *timer) = MBEDTLS_PLATFORM_STD_TIME;
+^
+library/platform_util.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 37 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/poly1305.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/poly1305.c:81:14: style: The scope of the variable 'd0' can be reduced. [variableScope]
+    uint64_t d0, d1, d2, d3;
+             ^
+library/poly1305.c:81:18: style: The scope of the variable 'd1' can be reduced. [variableScope]
+    uint64_t d0, d1, d2, d3;
+                 ^
+library/poly1305.c:81:22: style: The scope of the variable 'd2' can be reduced. [variableScope]
+    uint64_t d0, d1, d2, d3;
+                     ^
+library/poly1305.c:81:26: style: The scope of the variable 'd3' can be reduced. [variableScope]
+    uint64_t d0, d1, d2, d3;
+                         ^
+library/poly1305.c:288:12: style: The scope of the variable 'queue_free_len' can be reduced. [variableScope]
+    size_t queue_free_len;
+           ^
+library/poly1305.c:289:12: style: The scope of the variable 'nblocks' can be reduced. [variableScope]
+    size_t nblocks;
+           ^
+library/poly1305.c:475:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/psa_crypto.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 145 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_aead.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 23 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_aead.c:383:25: style: Variable 'status' is assigned a value that is never used. [unreadVariable]
+    psa_status_t status = PSA_ERROR_CORRUPTION_DETECTED;
+                        ^
+library/psa_crypto_aead.c:465:25: style: Variable 'status' is assigned a value that is never used. [unreadVariable]
+    psa_status_t status = PSA_ERROR_CORRUPTION_DETECTED;
+                        ^
+library/psa_crypto_aead.c:509:25: style: Variable 'status' is assigned a value that is never used. [unreadVariable]
+    psa_status_t status = PSA_ERROR_CORRUPTION_DETECTED;
+                        ^
+library/psa_crypto_aead.c:511:26: style: Variable 'update_output_length' is assigned a value that is never used. [unreadVariable]
+    update_output_length = input_length;
+                         ^
+library/psa_crypto_aead.c:574:25: style: Variable 'status' is assigned a value that is never used. [unreadVariable]
+    psa_status_t status = PSA_ERROR_CORRUPTION_DETECTED;
+                        ^
+library/psa_crypto_aead.c:575:31: style: Variable 'finish_output_size' is assigned a value that is never used. [unreadVariable]
+    size_t finish_output_size = 0;
+                              ^
+library/psa_crypto_cipher.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 48 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_client.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_ecp.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 34 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_ffdh.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_hash.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 36 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_mac.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 26 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_pake.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 23 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_pake.c:301:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/psa_crypto_pake.c:421:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/psa_crypto_pake.c:538:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/psa_crypto_pake.c:302:12: style: Unused variable: length [unusedVariable]
+    size_t length;
+           ^
+library/psa_crypto_rsa.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 56 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_se.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 20 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_se.c:53:15: style: struct member 'psa_drv_se_internal_context_t::transient_data' is never used. [unusedStructMember]
+    uintptr_t transient_data;
+              ^
+library/psa_crypto_slot_management.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 29 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_crypto_slot_management.c:374:12: style: Variable 'status' is reassigned a value before the old one has been used. [redundantAssignment]
+    status = psa_load_builtin_key_into_slot(*p_slot);
+           ^
+library/psa_crypto_slot_management.c:371:12: note: status is assigned
+    status = PSA_ERROR_DOES_NOT_EXIST;
+           ^
+library/psa_crypto_slot_management.c:374:12: note: status is overwritten
+    status = psa_load_builtin_key_into_slot(*p_slot);
+           ^
+library/psa_crypto_slot_management.c:100:12: style: The scope of the variable 'slot_idx' can be reduced. [variableScope]
+    size_t slot_idx;
+           ^
+library/psa_crypto_storage.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 25 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_its_file.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/psa_its_file.c:78:0: information: Skipping configuration 'MBEDTLS_PSA_ITS_FILE_C;PSA_ITS_STORAGE_PREFIX' since the value of 'PSA_ITS_STORAGE_PREFIX' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    mbedtls_snprintf(filename, PSA_ITS_STORAGE_FILENAME_LENGTH,
+^
+library/psa_its_file.c:80:0: information: Skipping configuration 'MBEDTLS_PSA_ITS_FILE_C;PSA_ITS_STORAGE_PREFIX' since the value of 'PSA_ITS_STORAGE_PREFIX' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+                     PSA_ITS_STORAGE_PREFIX,
+^
+library/psa_its_file.c:90:0: information: Skipping configuration 'MBEDTLS_PSA_ITS_FILE_C;PSA_ITS_STORAGE_PREFIX' since the value of 'PSA_ITS_STORAGE_PREFIX' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    char filename[PSA_ITS_STORAGE_FILENAME_LENGTH];
+^
+library/psa_its_file.c:202:0: information: Skipping configuration 'MBEDTLS_PSA_ITS_FILE_C;PSA_ITS_STORAGE_PREFIX' since the value of 'PSA_ITS_STORAGE_PREFIX' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    char filename[PSA_ITS_STORAGE_FILENAME_LENGTH];
+^
+library/psa_its_file.c:212:0: information: Skipping configuration 'MBEDTLS_PSA_ITS_FILE_C;PSA_ITS_STORAGE_PREFIX' since the value of 'PSA_ITS_STORAGE_PREFIX' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    stream = fopen(PSA_ITS_STORAGE_TEMP, "wb");
+^
+library/psa_its_file.c:242:0: information: Skipping configuration 'MBEDTLS_PSA_ITS_FILE_C;PSA_ITS_STORAGE_PREFIX' since the value of 'PSA_ITS_STORAGE_PREFIX' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+        if (rename_replace_existing(PSA_ITS_STORAGE_TEMP, filename) != 0) {
+^
+library/psa_its_file.c:251:0: information: Skipping configuration 'MBEDTLS_PSA_ITS_FILE_C;PSA_ITS_STORAGE_PREFIX' since the value of 'PSA_ITS_STORAGE_PREFIX' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    (void) remove(PSA_ITS_STORAGE_TEMP);
+^
+library/psa_its_file.c:257:0: information: Skipping configuration 'MBEDTLS_PSA_ITS_FILE_C;PSA_ITS_STORAGE_PREFIX' since the value of 'PSA_ITS_STORAGE_PREFIX' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+    char filename[PSA_ITS_STORAGE_FILENAME_LENGTH];
+^
+library/psa_util.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 25 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ripemd160.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ripemd160.c:282:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ripemd160.c:456:16: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int i, ret = 0;
+               ^
+library/rsa.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 148 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/rsa_alt_helpers.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 20 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/rsa_alt_helpers.c:229:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/rsa_alt_helpers.c:262:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+library/sha1.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/sha1.c:254:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/sha256.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 52 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/sha256.c:612:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/sha3.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 20 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/sha3.c:197:29: warning: Either the condition 'p==NULL' is redundant or there is possible null pointer dereference: p. [nullPointerRedundantCheck]
+    for (p = sha3_families; p->id != MBEDTLS_SHA3_NONE; p++) {
+                            ^
+library/sha3.c:203:11: note: Assuming that condition 'p==NULL' is not redundant
+    if (p == NULL || p->id == MBEDTLS_SHA3_NONE) {
+          ^
+library/sha3.c:197:29: note: Null pointer dereference
+    for (p = sha3_families; p->id != MBEDTLS_SHA3_NONE; p++) {
+                            ^
+library/sha512.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 56 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/sha512.c:762:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ssl_cache.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 132 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_ciphersuites.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 393 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_client.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 160 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_client.c:391:9: style: Condition '!renegotiating' is always true [knownConditionTrueFalse]
+    if (!renegotiating) {
+        ^
+library/ssl_client.c:387:25: note: Assignment 'renegotiating=0', assigned value is 0
+    int renegotiating = 0;
+                        ^
+library/ssl_client.c:391:9: note: Condition '!renegotiating' is always true
+    if (!renegotiating) {
+        ^
+library/ssl_cookie.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 136 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_msg.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 186 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_msg.c:2722:9: style: Condition '!done' is always true [knownConditionTrueFalse]
+    if (!done) {
+        ^
+library/ssl_msg.c:2716:21: note: Assignment 'done=0', assigned value is 0
+    int ret, done = 0;
+                    ^
+library/ssl_msg.c:2722:9: note: Condition '!done' is always true
+    if (!done) {
+        ^
+library/ssl_msg.c:3764:9: style: Condition '!done' is always true [knownConditionTrueFalse]
+    if (!done && ssl->transform_in != NULL) {
+        ^
+library/ssl_msg.c:3745:21: note: Assignment 'done=0', assigned value is 0
+    int ret, done = 0;
+                    ^
+library/ssl_msg.c:3764:9: note: Condition '!done' is always true
+    if (!done && ssl->transform_in != NULL) {
+        ^
+library/ssl_msg.c:814:16: style: Variable 'post_avail' is reassigned a value before the old one has been used. [redundantAssignment]
+    post_avail = rec->buf_len - (rec->data_len + rec->data_offset);
+               ^
+library/ssl_msg.c:742:16: note: post_avail is assigned
+    post_avail = rec->buf_len - (rec->data_len + rec->data_offset);
+               ^
+library/ssl_msg.c:814:16: note: post_avail is overwritten
+    post_avail = rec->buf_len - (rec->data_len + rec->data_offset);
+               ^
+library/ssl_msg.c:3917:40: style: The comparison 'dtls_have_buffered == 0' is always true. [knownConditionTrueFalse]
+                if (dtls_have_buffered == 0) {
+                                       ^
+library/ssl_msg.c:3904:42: note: 'dtls_have_buffered' is assigned value '0' here.
+                int dtls_have_buffered = 0;
+                                         ^
+library/ssl_msg.c:3917:40: note: The comparison 'dtls_have_buffered == 0' is always true.
+                if (dtls_have_buffered == 0) {
+                                       ^
+library/ssl_msg.c:1015:20: style: Variable 'post_avail' is assigned a value that is never used. [unreadVariable]
+        post_avail -= transform->taglen;
+                   ^
+library/ssl_msg.c:1924:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ssl_msg.c:2127:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ssl_msg.c:3089:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ssl_msg.c:4735:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ssl_msg.c:5440:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ssl_msg.c:5739:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ssl_msg.c:933:17: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+                ^
+library/ssl_msg.c:1064:20: style: Variable 'post_avail' is assigned a value that is never used. [unreadVariable]
+        post_avail -= padlen + 1;
+                   ^
+library/ssl_msg.c:702:19: style: Unused variable: add_data [unusedVariable]
+    unsigned char add_data[13];
+                  ^
+library/ssl_msg.c:704:12: style: Unused variable: add_data_len [unusedVariable]
+    size_t add_data_len;
+           ^
+library/ssl_msg.c:1288:19: style: Unused variable: add_data [unusedVariable]
+    unsigned char add_data[13];
+                  ^
+library/ssl_msg.c:1290:12: style: Unused variable: add_data_len [unusedVariable]
+    size_t add_data_len;
+           ^
+library/ssl_msg.c:694:19: style: Variable 'auth_done' is assigned a value that is never used. [unreadVariable]
+    int auth_done = 0;
+                  ^
+library/ssl_msg.c:739:14: style: Variable 'ssl_mode' is assigned a value that is never used. [unreadVariable]
+    ssl_mode = mbedtls_ssl_get_mode_from_transform(transform);
+             ^
+library/ssl_msg.c:814:16: style: Variable 'post_avail' is assigned a value that is never used. [unreadVariable]
+    post_avail = rec->buf_len - (rec->data_len + rec->data_offset);
+               ^
+library/ssl_msg.c:1277:19: style: Variable 'auth_done' is assigned a value that is never used. [unreadVariable]
+    int auth_done = 0;
+                  ^
+library/ssl_msg.c:1306:10: style: Variable 'data' is assigned a value that is never used. [unreadVariable]
+    data = rec->buf + rec->data_offset;
+         ^
+library/ssl_msg.c:1307:14: style: Variable 'ssl_mode' is assigned a value that is never used. [unreadVariable]
+    ssl_mode = mbedtls_ssl_get_mode_from_transform(transform);
+             ^
+library/ssl_msg.c:1275:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+library/ssl_msg.c:3021:17: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+                ^
+library/ssl_ticket.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 133 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_tls.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 347 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_tls.c:1502:17: style: Condition 'partial==0' is always true [knownConditionTrueFalse]
+    if (partial == 0) {
+                ^
+library/ssl_tls.c:1479:15: note: Assignment 'partial=0', assigned value is 0
+    partial = 0;
+              ^
+library/ssl_tls.c:1502:17: note: Condition 'partial==0' is always true
+    if (partial == 0) {
+                ^
+library/ssl_tls.c:5283:5: style:inconclusive: Found duplicate branches for 'if' and 'else'. [duplicateBranch]
+    if (transport == MBEDTLS_SSL_TRANSPORT_DATAGRAM) {
+    ^
+library/ssl_tls.c:5290:7: note: Found duplicate branches for 'if' and 'else'.
+    } else {
+      ^
+library/ssl_tls.c:5283:5: note: Found duplicate branches for 'if' and 'else'.
+    if (transport == MBEDTLS_SSL_TRANSPORT_DATAGRAM) {
+    ^
+library/ssl_tls.c:8199:69: style: Clarify calculation precedence for '&' and '?'. [clarifyCalculation]
+            ciphersuite_info->flags & MBEDTLS_CIPHERSUITE_SHORT_TAG ? 8 : 16;
+                                                                    ^
+library/ssl_tls.c:5574:17: style: struct member 'Anonymous5::name' is never used. [unusedStructMember]
+    const char *name;
+                ^
+library/ssl_tls.c:8132:20: style: Variable 'mac_enc' is not assigned a value. [unassignedVariable]
+    unsigned char *mac_enc;
+                   ^
+library/ssl_tls.c:8135:12: style: Unused variable: iv_copy_len [unusedVariable]
+    size_t iv_copy_len;
+           ^
+library/ssl_tls.c:1301:36: style: Variable 'conf' is assigned a value that is never used. [unreadVariable]
+    const mbedtls_ssl_config *conf = ssl->conf;
+                                   ^
+library/ssl_tls.c:8134:24: style: Variable 'mac_key_len' is assigned a value that is never used. [unreadVariable]
+    size_t mac_key_len = 0;
+                       ^
+library/ssl_tls.c:8278:12: style: Variable 'keylen' is assigned a value that is never used. [unreadVariable]
+    keylen = mbedtls_cipher_info_get_key_bitlen(cipher_info) / 8;
+           ^
+library/ssl_tls12_client.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 186 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_tls12_client.c:619:18: style: Same expression on both sides of '-'. [duplicateExpression]
+    *out_len = p - buf;
+                 ^
+library/ssl_tls12_client.c:529:24: note: 'p' is assigned value 'buf' here.
+    unsigned char *p = buf;
+                       ^
+library/ssl_tls12_client.c:619:18: note: Same expression on both sides of '-'.
+    *out_len = p - buf;
+                 ^
+library/ssl_tls12_client.c:2715:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/ssl_tls12_client.c:2717:12: style: Variable 'header_len' is not assigned a value. [unassignedVariable]
+    size_t header_len;
+           ^
+library/ssl_tls12_client.c:2718:12: style: Variable 'content_len' is not assigned a value. [unassignedVariable]
+    size_t content_len;
+           ^
+library/ssl_tls12_client.c:419:27: style: The scope of the variable 'profile_value' can be reduced. [variableScope]
+    uint16_t mki_len = 0, profile_value = 0;
+                          ^
+library/ssl_tls12_client.c:419:41: style: Variable 'profile_value' is assigned a value that is never used. [unreadVariable]
+    uint16_t mki_len = 0, profile_value = 0;
+                                        ^
+library/ssl_tls12_server.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 219 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_tls12_server.c:938:9: style: Condition '!renegotiating' is always true [knownConditionTrueFalse]
+    if (!renegotiating && !ssl->keep_current_message) {
+        ^
+library/ssl_tls12_server.c:934:21: note: Assignment 'renegotiating=0', assigned value is 0
+    renegotiating = 0;
+                    ^
+library/ssl_tls12_server.c:938:9: note: Condition '!renegotiating' is always true
+    if (!renegotiating && !ssl->keep_current_message) {
+        ^
+library/ssl_tls12_server.c:3643:22: style: Variable 'ciphersuite_info' is assigned a value that is never used. [unreadVariable]
+    ciphersuite_info = ssl->handshake->ciphersuite_info;
+                     ^
+library/ssl_tls12_server.c:3664:7: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+    p = ssl->in_msg + mbedtls_ssl_hs_hdr_len(ssl);
+      ^
+library/ssl_tls12_server.c:3665:9: style: Variable 'end' is assigned a value that is never used. [unreadVariable]
+    end = ssl->in_msg + ssl->in_hslen;
+        ^
+library/ssl_tls13_client.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 154 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_tls13_client.c:2598:9: style: Condition 'non_empty_certificate_msg' is always false [knownConditionTrueFalse]
+    if (non_empty_certificate_msg) {
+        ^
+library/ssl_tls13_client.c:2577:37: note: Assignment 'non_empty_certificate_msg=0', assigned value is 0
+    int non_empty_certificate_msg = 0;
+                                    ^
+library/ssl_tls13_client.c:2598:9: note: Condition 'non_empty_certificate_msg' is always false
+    if (non_empty_certificate_msg) {
+        ^
+library/ssl_tls13_client.c:1386:19: style: The scope of the variable 'last_byte_of_random' can be reduced. [variableScope]
+    unsigned char last_byte_of_random;
+                  ^
+library/ssl_tls13_client.c:493:7: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+    p += 2;
+      ^
+library/ssl_tls13_generic.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 148 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_tls13_keys.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 135 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/ssl_tls13_keys.c:315:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+library/ssl_tls13_keys.c:561:26: style:inconclusive: Function 'mbedtls_ssl_tls13_derive_application_secrets' argument 2 names different: declaration 'master_secret' definition 'application_secret'. [funcArgNamesDifferent]
+    unsigned char const *application_secret,
+                         ^
+library/ssl_tls13_keys.h:359:26: note: Function 'mbedtls_ssl_tls13_derive_application_secrets' argument 2 names different: declaration 'master_secret' definition 'application_secret'.
+    unsigned char const *master_secret,
+                         ^
+library/ssl_tls13_keys.c:561:26: note: Function 'mbedtls_ssl_tls13_derive_application_secrets' argument 2 names different: declaration 'master_secret' definition 'application_secret'.
+    unsigned char const *application_secret,
+                         ^
+library/ssl_tls13_keys.c:788:49: style:inconclusive: Function 'mbedtls_ssl_tls13_calculate_verify_data' argument 5 names different: declaration 'which' definition 'from'. [funcArgNamesDifferent]
+                                            int from)
+                                                ^
+library/ssl_tls13_keys.h:596:49: note: Function 'mbedtls_ssl_tls13_calculate_verify_data' argument 5 names different: declaration 'which' definition 'from'.
+                                            int which);
+                                                ^
+library/ssl_tls13_keys.c:788:49: note: Function 'mbedtls_ssl_tls13_calculate_verify_data' argument 5 names different: declaration 'which' definition 'from'.
+                                            int from)
+                                                ^
+library/ssl_tls13_keys.c:954:37: style: Variable 'attributes' is assigned a value that is never used. [unreadVariable]
+    psa_key_attributes_t attributes = PSA_KEY_ATTRIBUTES_INIT;
+                                    ^
+library/ssl_tls13_keys.c:957:25: style: Variable 'status' is assigned a value that is never used. [unreadVariable]
+    psa_status_t status = PSA_SUCCESS;
+                        ^
+library/ssl_tls13_server.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 149 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/threading.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 26 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/timing.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 22 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/version.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/x509.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 34 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/x509.c:871:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_oid_get_attr_short_name(&name->oid, &short_name);
+            ^
+library/x509.c:867:17: note: ret is assigned
+            ret = mbedtls_snprintf(p, n, merge ? " + " : ", ");
+                ^
+library/x509.c:871:13: note: ret is overwritten
+        ret = mbedtls_oid_get_attr_short_name(&name->oid, &short_name);
+            ^
+library/x509.c:900:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_snprintf(p, n, "%s", s);
+            ^
+library/x509.c:874:17: note: ret is assigned
+            ret = mbedtls_snprintf(p, n, "%s=", short_name);
+                ^
+library/x509.c:900:13: note: ret is overwritten
+        ret = mbedtls_snprintf(p, n, "%s", s);
+            ^
+library/x509.c:900:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_snprintf(p, n, "%s", s);
+            ^
+library/x509.c:876:17: note: ret is assigned
+            ret = mbedtls_snprintf(p, n, "\?\?=");
+                ^
+library/x509.c:900:13: note: ret is overwritten
+        ret = mbedtls_snprintf(p, n, "%s", s);
+            ^
+library/x509.c:632:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509.c:937:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf(p, n, "....");
+            ^
+library/x509.c:959:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf(p, n, "???");
+            ^
+library/x509.c:961:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf(p, n, "%s", desc);
+            ^
+library/x509.c:999:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = mbedtls_snprintf(p, n, "%s key size", name);
+        ^
+library/x509_create.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 19 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/x509_create.c:237:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_create.c:270:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_create.c:290:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_create.c:322:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_create.c:359:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_crl.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 26 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/x509_crl.c:621:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%sissuer name   : ", prefix);
+        ^
+library/x509_crl.c:617:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "%sCRL version   : %d",
+        ^
+library/x509_crl.c:621:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%sissuer name   : ", prefix);
+        ^
+library/x509_crl.c:623:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_dn_gets(p, n, &crl->issuer);
+        ^
+library/x509_crl.c:621:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%sissuer name   : ", prefix);
+        ^
+library/x509_crl.c:623:9: note: ret is overwritten
+    ret = mbedtls_x509_dn_gets(p, n, &crl->issuer);
+        ^
+library/x509_crl.c:626:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%sthis update   : " \
+        ^
+library/x509_crl.c:623:9: note: ret is assigned
+    ret = mbedtls_x509_dn_gets(p, n, &crl->issuer);
+        ^
+library/x509_crl.c:626:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%sthis update   : " \
+        ^
+library/x509_crl.c:633:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%snext update   : " \
+        ^
+library/x509_crl.c:626:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%sthis update   : " \
+        ^
+library/x509_crl.c:633:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%snext update   : " \
+        ^
+library/x509_crl.c:642:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%sRevoked certificates:",
+        ^
+library/x509_crl.c:633:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%snext update   : " \
+        ^
+library/x509_crl.c:642:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%sRevoked certificates:",
+        ^
+library/x509_crl.c:664:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using  : ", prefix);
+        ^
+library/x509_crl.c:642:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%sRevoked certificates:",
+        ^
+library/x509_crl.c:664:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using  : ", prefix);
+        ^
+library/x509_crl.c:651:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_x509_serial_gets(p, n, &entry->serial);
+            ^
+library/x509_crl.c:647:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%sserial number: ",
+            ^
+library/x509_crl.c:651:13: note: ret is overwritten
+        ret = mbedtls_x509_serial_gets(p, n, &entry->serial);
+            ^
+library/x509_crl.c:654:13: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        ret = mbedtls_snprintf(p, n, " revocation date: " \
+            ^
+library/x509_crl.c:651:13: note: ret is assigned
+        ret = mbedtls_x509_serial_gets(p, n, &entry->serial);
+            ^
+library/x509_crl.c:654:13: note: ret is overwritten
+        ret = mbedtls_snprintf(p, n, " revocation date: " \
+            ^
+library/x509_crl.c:664:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using  : ", prefix);
+        ^
+library/x509_crl.c:654:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, " revocation date: " \
+            ^
+library/x509_crl.c:664:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using  : ", prefix);
+        ^
+library/x509_crl.c:667:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_sig_alg_gets(p, n, &crl->sig_oid, crl->sig_pk, crl->sig_md,
+        ^
+library/x509_crl.c:664:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using  : ", prefix);
+        ^
+library/x509_crl.c:667:9: note: ret is overwritten
+    ret = mbedtls_x509_sig_alg_gets(p, n, &crl->sig_oid, crl->sig_pk, crl->sig_md,
+        ^
+library/x509_crl.c:671:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crl.c:667:9: note: ret is assigned
+    ret = mbedtls_x509_sig_alg_gets(p, n, &crl->sig_oid, crl->sig_pk, crl->sig_md,
+        ^
+library/x509_crl.c:671:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crl.c:671:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crl.c:519:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_crt.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 49 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/x509_crt.c:2733:17: warning: Either the condition 'nonzero_groups==0' is redundant or the array 'addr[8]' is accessed at index -1, which is out of bounds. [negativeIndex]
+            addr[nonzero_groups++] = MBEDTLS_IS_BIG_ENDIAN ? group :
+                ^
+library/x509_crt.c:2739:37: note: Assuming that condition 'nonzero_groups==0' is not redundant
+                if ((nonzero_groups == 0 && zero_group_start == -1) ||
+                                    ^
+library/x509_crt.c:2733:18: note: nonzero_groups is incremented', new value is -1
+            addr[nonzero_groups++] = MBEDTLS_IS_BIG_ENDIAN ? group :
+                 ^
+library/x509_crt.c:2733:17: note: Negative array index
+            addr[nonzero_groups++] = MBEDTLS_IS_BIG_ENDIAN ? group :
+                ^
+library/x509_crt.c:1783:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "%sserial number     : ",
+        ^
+library/x509_crt.c:1780:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "%scert. version     : %d\n",
+        ^
+library/x509_crt.c:1783:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "%sserial number     : ",
+        ^
+library/x509_crt.c:1787:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_serial_gets(p, n, &crt->serial);
+        ^
+library/x509_crt.c:1783:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "%sserial number     : ",
+        ^
+library/x509_crt.c:1787:9: note: ret is overwritten
+    ret = mbedtls_x509_serial_gets(p, n, &crt->serial);
+        ^
+library/x509_crt.c:1790:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%sissuer name       : ", prefix);
+        ^
+library/x509_crt.c:1787:9: note: ret is assigned
+    ret = mbedtls_x509_serial_gets(p, n, &crt->serial);
+        ^
+library/x509_crt.c:1790:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%sissuer name       : ", prefix);
+        ^
+library/x509_crt.c:1792:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_dn_gets(p, n, &crt->issuer);
+        ^
+library/x509_crt.c:1790:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%sissuer name       : ", prefix);
+        ^
+library/x509_crt.c:1792:9: note: ret is overwritten
+    ret = mbedtls_x509_dn_gets(p, n, &crt->issuer);
+        ^
+library/x509_crt.c:1795:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%ssubject name      : ", prefix);
+        ^
+library/x509_crt.c:1792:9: note: ret is assigned
+    ret = mbedtls_x509_dn_gets(p, n, &crt->issuer);
+        ^
+library/x509_crt.c:1795:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%ssubject name      : ", prefix);
+        ^
+library/x509_crt.c:1797:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_dn_gets(p, n, &crt->subject);
+        ^
+library/x509_crt.c:1795:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%ssubject name      : ", prefix);
+        ^
+library/x509_crt.c:1797:9: note: ret is overwritten
+    ret = mbedtls_x509_dn_gets(p, n, &crt->subject);
+        ^
+library/x509_crt.c:1800:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%sissued  on        : " \
+        ^
+library/x509_crt.c:1797:9: note: ret is assigned
+    ret = mbedtls_x509_dn_gets(p, n, &crt->subject);
+        ^
+library/x509_crt.c:1800:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%sissued  on        : " \
+        ^
+library/x509_crt.c:1807:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%sexpires on        : " \
+        ^
+library/x509_crt.c:1800:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%sissued  on        : " \
+        ^
+library/x509_crt.c:1807:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%sexpires on        : " \
+        ^
+library/x509_crt.c:1814:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using      : ", prefix);
+        ^
+library/x509_crt.c:1807:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%sexpires on        : " \
+        ^
+library/x509_crt.c:1814:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using      : ", prefix);
+        ^
+library/x509_crt.c:1817:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_sig_alg_gets(p, n, &crt->sig_oid, crt->sig_pk,
+        ^
+library/x509_crt.c:1814:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using      : ", prefix);
+        ^
+library/x509_crt.c:1817:9: note: ret is overwritten
+    ret = mbedtls_x509_sig_alg_gets(p, n, &crt->sig_oid, crt->sig_pk,
+        ^
+library/x509_crt.c:1822:14: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    if ((ret = mbedtls_x509_key_size_helper(key_size_str, BEFORE_COLON,
+             ^
+library/x509_crt.c:1817:9: note: ret is assigned
+    ret = mbedtls_x509_sig_alg_gets(p, n, &crt->sig_oid, crt->sig_pk,
+        ^
+library/x509_crt.c:1822:14: note: ret is overwritten
+    if ((ret = mbedtls_x509_key_size_helper(key_size_str, BEFORE_COLON,
+             ^
+library/x509_crt.c:1895:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crt.c:1827:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%s%-" BC "s: %d bits", prefix, key_size_str,
+        ^
+library/x509_crt.c:1895:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crt.c:1895:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crt.c:1836:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%sbasic constraints : CA=%s", prefix,
+            ^
+library/x509_crt.c:1895:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crt.c:1895:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crt.c:1841:17: note: ret is assigned
+            ret = mbedtls_snprintf(p, n, ", max_pathlen=%d", crt->max_pathlen - 1);
+                ^
+library/x509_crt.c:1895:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crt.c:1850:18: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if ((ret = mbedtls_x509_info_subject_alt_name(&p, &n,
+                 ^
+library/x509_crt.c:1847:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%ssubject alt name  :", prefix);
+            ^
+library/x509_crt.c:1850:18: note: ret is overwritten
+        if ((ret = mbedtls_x509_info_subject_alt_name(&p, &n,
+                 ^
+library/x509_crt.c:1861:18: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if ((ret = mbedtls_x509_info_cert_type(&p, &n, crt->ns_cert_type)) != 0) {
+                 ^
+library/x509_crt.c:1858:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%scert. type        : ", prefix);
+            ^
+library/x509_crt.c:1861:18: note: ret is overwritten
+        if ((ret = mbedtls_x509_info_cert_type(&p, &n, crt->ns_cert_type)) != 0) {
+                 ^
+library/x509_crt.c:1870:18: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if ((ret = mbedtls_x509_info_key_usage(&p, &n, crt->key_usage)) != 0) {
+                 ^
+library/x509_crt.c:1867:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%skey usage         : ", prefix);
+            ^
+library/x509_crt.c:1870:18: note: ret is overwritten
+        if ((ret = mbedtls_x509_info_key_usage(&p, &n, crt->key_usage)) != 0) {
+                 ^
+library/x509_crt.c:1879:18: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if ((ret = x509_info_ext_key_usage(&p, &n,
+                 ^
+library/x509_crt.c:1876:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%sext key usage     : ", prefix);
+            ^
+library/x509_crt.c:1879:18: note: ret is overwritten
+        if ((ret = x509_info_ext_key_usage(&p, &n,
+                 ^
+library/x509_crt.c:1889:18: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if ((ret = x509_info_cert_policies(&p, &n,
+                 ^
+library/x509_crt.c:1886:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%scertificate policies : ", prefix);
+            ^
+library/x509_crt.c:1889:18: note: ret is overwritten
+        if ((ret = x509_info_cert_policies(&p, &n,
+                 ^
+library/x509_crt.c:263:19: style: The scope of the variable 'diff' can be reduced. [variableScope]
+    unsigned char diff;
+                  ^
+library/x509_crt.c:757:23: style: The scope of the variable 'buf' can be reduced. [variableScope]
+    mbedtls_asn1_buf *buf;
+                      ^
+library/x509_crt.c:882:20: style: The scope of the variable 'end_ext_data' can be reduced. [variableScope]
+    unsigned char *end_ext_data, *start_ext_octet, *end_ext_octet;
+                   ^
+library/x509_crt.c:882:35: style: The scope of the variable 'start_ext_octet' can be reduced. [variableScope]
+    unsigned char *end_ext_data, *start_ext_octet, *end_ext_octet;
+                                  ^
+library/x509_crt.c:2720:29: style: The scope of the variable 'num_digits' can be reduced. [variableScope]
+    int nonzero_groups = 0, num_digits, zero_group_start = -1;
+                            ^
+library/x509_crt.c:2818:20: style: The scope of the variable 'num_digits' can be reduced. [variableScope]
+    uint8_t digit, num_digits = 0;
+                   ^
+library/x509_crt.c:2820:14: style: The scope of the variable 'octet' can be reduced. [variableScope]
+    uint16_t octet;
+             ^
+library/x509_crt.c:224:36: style: Variable 'pk_alg' is assigned a value that is never used. [unreadVariable]
+    const mbedtls_pk_type_t pk_alg = mbedtls_pk_get_type(pk);
+                                   ^
+library/x509_crt.c:1702:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_crt.c:1714:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf(p, n, "%s%s", sep, desc);
+            ^
+library/x509_crt.c:1731:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_crt.c:1743:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf(p, n, "%s%s", sep, desc);
+            ^
+library/x509_crt.c:1774:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf(p, n, "\nCertificate is uninitialised!\n");
+            ^
+library/x509_crt.c:1895:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = mbedtls_snprintf(p, n, "\n");
+        ^
+library/x509_crt.c:1932:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf(p, n, "%sUnknown reason "
+            ^
+library/x509_crt.c:2388:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_crt.c:2518:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_crt.c:2818:31: style: Variable 'num_digits' is assigned a value that is never used. [unreadVariable]
+    uint8_t digit, num_digits = 0;
+                              ^
+library/x509_crt.c:3004:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509_csr.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 24 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/x509_csr.c:491:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%ssubject name  : ", prefix);
+        ^
+library/x509_csr.c:487:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "%sCSR version   : %d",
+        ^
+library/x509_csr.c:491:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%ssubject name  : ", prefix);
+        ^
+library/x509_csr.c:493:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_dn_gets(p, n, &csr->subject);
+        ^
+library/x509_csr.c:491:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%ssubject name  : ", prefix);
+        ^
+library/x509_csr.c:493:9: note: ret is overwritten
+    ret = mbedtls_x509_dn_gets(p, n, &csr->subject);
+        ^
+library/x509_csr.c:496:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using  : ", prefix);
+        ^
+library/x509_csr.c:493:9: note: ret is assigned
+    ret = mbedtls_x509_dn_gets(p, n, &csr->subject);
+        ^
+library/x509_csr.c:496:9: note: ret is overwritten
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using  : ", prefix);
+        ^
+library/x509_csr.c:499:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = mbedtls_x509_sig_alg_gets(p, n, &csr->sig_oid, csr->sig_pk, csr->sig_md,
+        ^
+library/x509_csr.c:496:9: note: ret is assigned
+    ret = mbedtls_snprintf(p, n, "\n%ssigned using  : ", prefix);
+        ^
+library/x509_csr.c:499:9: note: ret is overwritten
+    ret = mbedtls_x509_sig_alg_gets(p, n, &csr->sig_oid, csr->sig_pk, csr->sig_md,
+        ^
+library/x509_csr.c:503:14: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    if ((ret = mbedtls_x509_key_size_helper(key_size_str, BEFORE_COLON,
+             ^
+library/x509_csr.c:499:9: note: ret is assigned
+    ret = mbedtls_x509_sig_alg_gets(p, n, &csr->sig_oid, csr->sig_pk, csr->sig_md,
+        ^
+library/x509_csr.c:503:14: note: ret is overwritten
+    if ((ret = mbedtls_x509_key_size_helper(key_size_str, BEFORE_COLON,
+             ^
+library/x509_csr.c:520:18: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if ((ret = mbedtls_x509_info_subject_alt_name(&p, &n,
+                 ^
+library/x509_csr.c:517:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%ssubject alt name  :", prefix);
+            ^
+library/x509_csr.c:520:18: note: ret is overwritten
+        if ((ret = mbedtls_x509_info_subject_alt_name(&p, &n,
+                 ^
+library/x509_csr.c:531:18: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if ((ret = mbedtls_x509_info_cert_type(&p, &n, csr->ns_cert_type)) != 0) {
+                 ^
+library/x509_csr.c:528:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%scert. type        : ", prefix);
+            ^
+library/x509_csr.c:531:18: note: ret is overwritten
+        if ((ret = mbedtls_x509_info_cert_type(&p, &n, csr->ns_cert_type)) != 0) {
+                 ^
+library/x509_csr.c:540:18: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+        if ((ret = mbedtls_x509_info_key_usage(&p, &n, csr->key_usage)) != 0) {
+                 ^
+library/x509_csr.c:537:13: note: ret is assigned
+        ret = mbedtls_snprintf(p, n, "\n%skey usage         : ", prefix);
+            ^
+library/x509_csr.c:540:18: note: ret is overwritten
+        if ((ret = mbedtls_x509_info_key_usage(&p, &n, csr->key_usage)) != 0) {
+                 ^
+library/x509_csr.c:78:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+library/x509_csr.c:173:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+library/x509_csr.c:508:9: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    ret = mbedtls_snprintf(p, n, "\n%s%-" BC "s: %d bits\n", prefix, key_size_str,
+        ^
+library/x509_csr.c:546:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_snprintf(p, n, "\n");
+            ^
+library/x509_csr.c:404:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509write_crt.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 24 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/x509write_crt.c:309:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509write_crt.c:472:9: style: Unused variable: ret [unusedVariable]
+    int ret;
+        ^
+library/x509write_crt.c:535:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509write_crt.c:396:9: style: The if condition is the same as the previous if condition [duplicateCondition]
+    if (is_ca) {
+        ^
+library/x509write_crt.c:387:9: note: First condition
+    if (is_ca) { // writes AuthorityKeyIdentifier sequence
+        ^
+library/x509write_crt.c:396:9: note: Second condition
+    if (is_ca) {
+        ^
+library/x509write_crt.c:344:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+            ^
+library/x509write_csr.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 21 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+library/x509write_csr.c:183:1: style: Label 'cleanup' is not used. [unusedLabel]
+cleanup:
+^
+programs/cipher/cipher_aead_demo.c:197:23: style: Same value in both branches of ternary operator. [duplicateValueTernary]
+    unsigned char out[MSG_MAX_SIZE + MAX_TAG_LENGTH];
+                      ^
+programs/fuzz/fuzz_x509crl.c:23:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_x509_crl_info((char *) buf, sizeof(buf) - 1, " ", &crl);
+            ^
+programs/fuzz/fuzz_x509crl.c:11:19: style: Variable 'buf' is not assigned a value. [unassignedVariable]
+    unsigned char buf[4096];
+                  ^
+programs/fuzz/fuzz_x509crt.c:23:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_x509_crt_info((char *) buf, sizeof(buf) - 1, " ", &crt);
+            ^
+programs/fuzz/fuzz_x509crt.c:11:19: style: Variable 'buf' is not assigned a value. [unassignedVariable]
+    unsigned char buf[4096];
+                  ^
+programs/fuzz/fuzz_x509csr.c:23:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+        ret = mbedtls_x509_csr_info((char *) buf, sizeof(buf) - 1, " ", &csr);
+            ^
+programs/fuzz/fuzz_x509csr.c:11:19: style: Variable 'buf' is not assigned a value. [unassignedVariable]
+    unsigned char buf[4096];
+                  ^
+programs/hash/hello.c:45:14: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    if ((ret = mbedtls_md5((unsigned char *) str, 13, digest)) != 0) {
+             ^
+programs/pkey/gen_key.c:47:12: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    size_t ret, left = len;
+           ^
+programs/pkey/key_app_writer.c:132:11: style: Redundant initialization for 'c'. The initialized value is overwritten before it is read. [redundantInitialization]
+        c = output_buf + sizeof(output_buf) - len;
+          ^
+programs/pkey/key_app_writer.c:112:22: note: c is initialized
+    unsigned char *c = output_buf;
+                     ^
+programs/pkey/key_app_writer.c:132:11: note: c is overwritten
+        c = output_buf + sizeof(output_buf) - len;
+          ^
+programs/pkey/key_app_writer.c:174:11: style: Redundant initialization for 'c'. The initialized value is overwritten before it is read. [redundantInitialization]
+        c = output_buf + sizeof(output_buf) - len;
+          ^
+programs/pkey/key_app_writer.c:154:22: note: c is initialized
+    unsigned char *c = output_buf;
+                     ^
+programs/pkey/key_app_writer.c:174:11: note: c is overwritten
+        c = output_buf + sizeof(output_buf) - len;
+          ^
+programs/pkey/mpi_demo.c:85:1: style: Label 'cleanup' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+cleanup:
+^
+programs/pkey/mpi_demo.c:41:13: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int ret = 1;
+            ^
+programs/psa/psa_constant_names.c:71:16: warning: %x in format string (no. 1) requires 'unsigned int' but the argument type is 'unsigned long'. [invalidPrintfArgType_uint]
+    size_t n = snprintf(*buffer, buffer_size - *required_size, format, value);
+               ^
+programs/random/gen_entropy.c:42:19: style: Variable 'ret' is assigned a value that is never used. [unreadVariable]
+    int i, k, ret = 1;
+                  ^
+programs/ssl/ssl_client2.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 68 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+programs/ssl/ssl_context_info.c:398:23: warning: The address of local variable 'b64_buf' might be accessed at non-zero index. [objectIndex]
+                (*b64)[len++] = c;
+                      ^
+programs/ssl/ssl_context_info.c:962:45: note: Address of variable taken here.
+        size_t b64_len = read_next_b64_code(&b64_buf, &b64_max_len);
+                                            ^
+programs/ssl/ssl_context_info.c:962:45: note: Calling function 'read_next_b64_code', 1st argument '&b64_buf' value is lifetime=b64_buf
+        size_t b64_len = read_next_b64_code(&b64_buf, &b64_max_len);
+                                            ^
+programs/ssl/ssl_context_info.c:398:23: note: The address of local variable 'b64_buf' might be accessed at non-zero index.
+                (*b64)[len++] = c;
+                      ^
+programs/ssl/ssl_context_info.c:412:23: warning: The address of local variable 'b64_buf' might be accessed at non-zero index. [objectIndex]
+                (*b64)[len++] = c;
+                      ^
+programs/ssl/ssl_context_info.c:962:45: note: Address of variable taken here.
+        size_t b64_len = read_next_b64_code(&b64_buf, &b64_max_len);
+                                            ^
+programs/ssl/ssl_context_info.c:962:45: note: Calling function 'read_next_b64_code', 1st argument '&b64_buf' value is lifetime=b64_buf
+        size_t b64_len = read_next_b64_code(&b64_buf, &b64_max_len);
+                                            ^
+programs/ssl/ssl_context_info.c:406:26: note: Assuming condition is Assuming condition is false
+                if (NULL == ptr) {
+                         ^
+programs/ssl/ssl_context_info.c:412:23: note: The address of local variable 'b64_buf' might be accessed at non-zero index.
+                (*b64)[len++] = c;
+                      ^
+programs/ssl/ssl_fork_server.c:334:21: style: Condition 'ret>0' is always true [knownConditionTrueFalse]
+            if (ret > 0) {
+                    ^
+programs/ssl/ssl_fork_server.c:313:21: note: Assuming that condition 'ret<=0' is not redundant
+            if (ret <= 0) {
+                    ^
+programs/ssl/ssl_fork_server.c:334:21: note: Condition 'ret>0' is always true
+            if (ret > 0) {
+                    ^
+programs/ssl/ssl_mail_client.c:786:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = write_ssl_and_get_response(&ssl, buf, len);
+        ^
+programs/ssl/ssl_mail_client.c:783:9: note: ret is assigned
+    ret = write_ssl_data(&ssl, buf, len);
+        ^
+programs/ssl/ssl_mail_client.c:786:9: note: ret is overwritten
+    ret = write_ssl_and_get_response(&ssl, buf, len);
+        ^
+programs/ssl/ssl_mail_client.c:357:12: style: Unused variable: n [unusedVariable]
+    size_t n;
+           ^
+programs/ssl/ssl_pthread_server.c:186:17: style: Condition 'ret>0' is always true [knownConditionTrueFalse]
+        if (ret > 0) {
+                ^
+programs/ssl/ssl_pthread_server.c:163:17: note: Assuming that condition 'ret<=0' is not redundant
+        if (ret <= 0) {
+                ^
+programs/ssl/ssl_pthread_server.c:186:17: note: Condition 'ret>0' is always true
+        if (ret > 0) {
+                ^
+programs/ssl/ssl_server.c:300:17: style: Condition 'ret>0' is always true [knownConditionTrueFalse]
+        if (ret > 0) {
+                ^
+programs/ssl/ssl_server.c:279:17: note: Assuming that condition 'ret<=0' is not redundant
+        if (ret <= 0) {
+                ^
+programs/ssl/ssl_server.c:300:17: note: Condition 'ret>0' is always true
+        if (ret > 0) {
+                ^
+programs/ssl/ssl_server2.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 89 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+programs/ssl/ssl_test_common_source.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 15 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+programs/ssl/ssl_test_lib.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 31 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+programs/test/benchmark.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 47 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+programs/test/selftest.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 35 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+programs/test/selftest.c:363:28: error: The address of local variable 'endian_test' is accessed at non-zero index. [objectIndex]
+    if (!(p[0] == 0x12 && p[1] == 0x34 && p[2] == 0x56 && p[3] == 0x78) &&
+                           ^
+programs/test/selftest.c:362:24: note: Address of variable taken here.
+    char *p = (char *) &endian_test;
+                       ^
+programs/test/selftest.c:363:28: note: The address of local variable 'endian_test' is accessed at non-zero index.
+    if (!(p[0] == 0x12 && p[1] == 0x34 && p[2] == 0x56 && p[3] == 0x78) &&
+                           ^
+programs/test/selftest.c:364:12: error: The address of local variable 'endian_test' is accessed at non-zero index. [objectIndex]
+        !(p[3] == 0x12 && p[2] == 0x34 && p[1] == 0x56 && p[0] == 0x78)) {
+           ^
+programs/test/selftest.c:362:24: note: Address of variable taken here.
+    char *p = (char *) &endian_test;
+                       ^
+programs/test/selftest.c:364:12: note: The address of local variable 'endian_test' is accessed at non-zero index.
+        !(p[3] == 0x12 && p[2] == 0x34 && p[1] == 0x56 && p[0] == 0x78)) {
+           ^
+programs/test/udp_proxy.c:650:9: style: The scope of the variable 'ret' can be reduced. [variableScope]
+    int ret;
+        ^
+programs/util/pem2der.c:135:16: style: Condition '*n+1==0' is always false [knownConditionTrueFalse]
+    if (*n + 1 == 0 ||
+               ^
+programs/util/pem2der.c:127:27: note: Assuming that condition '(size=ftell(f))==-1' is not redundant
+    if ((size = ftell(f)) == -1) {
+                          ^
+programs/util/pem2der.c:133:10: note: Assignment '*n=(unsigned long)size', assigned value is -1
+    *n = (size_t) size;
+         ^
+programs/util/pem2der.c:135:16: note: Condition '*n+1==0' is always false
+    if (*n + 1 == 0 ||
+               ^
+programs/x509/cert_write.c:270:19: style: The scope of the variable 'val' can be reduced. [variableScope]
+    unsigned char val;
+                  ^
+programs/x509/cert_write.c:568:21: error: Uninitialized variable: semicolon [uninitvar]
+                if (semicolon != NULL) {
+                    ^
+tests/src/asn1_helpers.c:70:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/bignum_helpers.c:84:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/drivers/test_driver_asymmetric_encryption.c:75:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_asymmetric_encryption.c:117:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_cipher.c:88:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_cipher.c:135:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_cipher.c:167:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_cipher.c:193:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_cipher.c:236:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_cipher.c:277:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_cipher.c:314:5: style:inconclusive: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+    return PSA_ERROR_NOT_SUPPORTED;
+    ^
+tests/src/drivers/test_driver_key_management.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 18 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+tests/src/drivers/test_driver_key_management.c:524:29: style: Variable 'status' is assigned a value that is never used. [unreadVariable]
+        psa_status_t status = PSA_ERROR_CORRUPTION_DETECTED;
+                            ^
+tests/src/drivers/test_driver_signature.c:240:33: error: Uninitialized variable: hash_length [uninitvar]
+                     alg, hash, hash_length,
+                                ^
+tests/src/drivers/test_driver_signature.c:307:35: error: Uninitialized variable: hash_length [uninitvar]
+                       alg, hash, hash_length,
+                                  ^
+tests/src/helpers.c:229:19: style: The scope of the variable 'l' can be reduced. [variableScope]
+    unsigned char l, h;
+                  ^
+tests/src/helpers.c:229:22: style: The scope of the variable 'h' can be reduced. [variableScope]
+    unsigned char l, h;
+                     ^
+tests/src/psa_exercise_key.c:309:0: information: Skipping configuration 'KNOWN_SUPPORTED_HASH_ALG;MBEDTLS_PSA_CRYPTO_C' since the value of 'KNOWN_SUPPORTED_HASH_ALG' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+            hash_alg = KNOWN_SUPPORTED_HASH_ALG;
+^
+tests/src/psa_exercise_key.c:240:12: style: Same expression used in consecutive assignments of 'ciphertext_length' and 'plaintext_length'. [duplicateAssignExpression]
+    size_t ciphertext_length = sizeof(ciphertext);
+           ^
+tests/src/psa_exercise_key.c:241:12: note: Same expression used in consecutive assignments of 'ciphertext_length' and 'plaintext_length'.
+    size_t plaintext_length = sizeof(ciphertext);
+           ^
+tests/src/psa_exercise_key.c:240:12: note: Same expression used in consecutive assignments of 'ciphertext_length' and 'plaintext_length'.
+    size_t ciphertext_length = sizeof(ciphertext);
+           ^
+tests/src/psa_exercise_key.c:167:19: style: The scope of the variable 'decrypted' can be reduced. [variableScope]
+    unsigned char decrypted[sizeof(ciphertext)];
+                  ^
+tests/src/psa_exercise_key.c:600:19: style: The scope of the variable 'input' can be reduced. [variableScope]
+    unsigned char input[1] = { 0 };
+                  ^
+tests/src/psa_exercise_key.c:601:19: style: The scope of the variable 'output' can be reduced. [variableScope]
+    unsigned char output[1];
+                  ^
+tests/src/psa_exercise_key.c:103:1: style: Label 'exit' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+exit:
+^
+tests/src/psa_exercise_key.c:150:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:224:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:277:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:369:1: style: Label 'exit' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+exit:
+^
+tests/src/psa_exercise_key.c:405:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:450:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:516:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:567:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:591:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:661:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:952:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/psa_exercise_key.c:138:46: style: Clarify calculation precedence for '&' and '?'. [clarifyCalculation]
+            (usage & PSA_KEY_USAGE_SIGN_HASH ?
+                                             ^
+tests/src/psa_exercise_key.c:263:44: style: Clarify calculation precedence for '&' and '?'. [clarifyCalculation]
+            (usage & PSA_KEY_USAGE_ENCRYPT ?
+                                           ^
+tests/src/psa_exercise_key.c:332:50: style: Clarify calculation precedence for '&' and '?'. [clarifyCalculation]
+                (usage & PSA_KEY_USAGE_SIGN_HASH ?
+                                                 ^
+tests/src/psa_exercise_key.c:357:53: style: Clarify calculation precedence for '&' and '?'. [clarifyCalculation]
+                (usage & PSA_KEY_USAGE_SIGN_MESSAGE ?
+                                                    ^
+tests/src/psa_exercise_key.c:823:1: style: Label 'exit' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+exit:
+^
+tests/src/random.c:71:9: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+        rng_state  = NULL;
+        ^
+tests/src/random.c:48:19: style: The statement 'if (rng_state!=NULL) rng_state=NULL' is logically equivalent to 'rng_state=NULL'. [duplicateConditionalAssign]
+    if (rng_state != NULL) {
+                  ^
+tests/src/random.c:49:20: note: Assignment 'rng_state=NULL'
+        rng_state  = NULL;
+                   ^
+tests/src/random.c:48:19: note: Condition 'rng_state!=NULL' is redundant
+    if (rng_state != NULL) {
+                  ^
+tests/src/random.c:70:19: style: The statement 'if (rng_state!=NULL) rng_state=NULL' is logically equivalent to 'rng_state=NULL'. [duplicateConditionalAssign]
+    if (rng_state != NULL) {
+                  ^
+tests/src/random.c:71:20: note: Assignment 'rng_state=NULL'
+        rng_state  = NULL;
+                   ^
+tests/src/random.c:70:19: note: Condition 'rng_state!=NULL' is redundant
+    if (rng_state != NULL) {
+                  ^
+tests/src/random.c:120:21: style: The scope of the variable 'sum' can be reduced. [variableScope]
+    uint32_t i, *k, sum, delta = 0x9E3779B9;
+                    ^
+tests/src/random.c:141:0: information: Skipping configuration '__BYTE_ORDER__' since the value of '__BYTE_ORDER__' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+        MBEDTLS_PUT_UINT32_BE(info->v0, result, 0);
+^
+tests/src/random.c:57:9: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+        rng_state = NULL;
+        ^
+tests/src/random.c:56:19: style: The statement 'if (rng_state!=NULL) rng_state=NULL' is logically equivalent to 'rng_state=NULL'. [duplicateConditionalAssign]
+    if (rng_state != NULL) {
+                  ^
+tests/src/random.c:57:19: note: Assignment 'rng_state=NULL'
+        rng_state = NULL;
+                  ^
+tests/src/random.c:56:19: note: Condition 'rng_state!=NULL' is redundant
+    if (rng_state != NULL) {
+                  ^
+tests/src/test_helpers/ssl_helpers.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 39 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+tests/src/test_helpers/ssl_helpers.c:1698:9: style: Variable 'ret' is reassigned a value before the old one has been used. [redundantAssignment]
+    ret = 0;
+        ^
+tests/src/test_helpers/ssl_helpers.c:1691:13: note: ret is assigned
+        ret = -1;
+            ^
+tests/src/test_helpers/ssl_helpers.c:1698:9: note: ret is overwritten
+    ret = 0;
+        ^
+tests/src/test_helpers/ssl_helpers.c:158:12: style: The scope of the variable 'overflow' can be reduced. [variableScope]
+    size_t overflow = 0;
+           ^
+tests/src/test_helpers/ssl_helpers.c:961:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/test_helpers/ssl_helpers.c:1002:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/test_helpers/ssl_helpers.c:1700:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/test_helpers/ssl_helpers.c:731:1: style: Label 'exit' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+exit:
+^
+tests/src/test_helpers/ssl_helpers.c:863:1: style: Label 'exit' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+exit:
+^
+tests/src/test_helpers/ssl_helpers.c:1031:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/test_helpers/ssl_helpers.c:1762:1: style: Label 'exit' is not used. [unusedLabel]
+exit:
+^
+tests/src/test_helpers/ssl_helpers.c:96:1: style: Label 'exit' is not used. There is #if in function body so the label might be used in code that is removed by the preprocessor. [unusedLabelConfiguration]
+exit:
+^
+3rdparty/everest/library/kremlib/FStar_UInt128_extracted.c:20:0: style: The function 'FStar_UInt128___proj__Mkuint128__item__high' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt128_extracted.c:15:0: style: The function 'FStar_UInt128___proj__Mkuint128__item__low' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt128_extracted.c:224:0: style: The function 'FStar_UInt128_eq_mask' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt128_extracted.c:239:0: style: The function 'FStar_UInt128_gte_mask' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt128_extracted.c:103:0: style: The function 'FStar_UInt128_lognot' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt128_extracted.c:341:0: style: The function 'FStar_UInt128_mul32' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:57:0: style: The function 'FStar_UInt16_eq_mask' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:66:0: style: The function 'FStar_UInt16_gte_mask' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:35:0: style: The function 'FStar_UInt32_eq_mask' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:44:0: style: The function 'FStar_UInt32_gte_mask' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:79:0: style: The function 'FStar_UInt8_eq_mask' is never used. [unusedFunction]
+
+^
+3rdparty/everest/library/kremlib/FStar_UInt64_FStar_UInt32_FStar_UInt16_FStar_UInt8.c:88:0: style: The function 'FStar_UInt8_gte_mask' is never used. [unusedFunction]
+
+^
+programs/wince_main.c:26:0: style: The function '_tmain' is never used. [unusedFunction]
+
+^
+programs/psa/psa_constant_names.c:121:0: style: The function 'append_with_alg' is never used. [unusedFunction]
+
+^
+programs/psa/psa_constant_names.c:83:0: style: The function 'append_with_curve' is never used. [unusedFunction]
+
+^
+programs/psa/psa_constant_names.c:101:0: style: The function 'append_with_group' is never used. [unusedFunction]
+
+^
+programs/ssl/ssl_test_common_source.c:27:0: style: The function 'eap_tls_key_derivation' is never used. [unusedFunction]
+
+^
+library/aesce.c:464:0: style: The function 'mbedtls_aesce_gcm_mult' is never used. [unusedFunction]
+
+^
+library/aesni.c:433:0: style: The function 'mbedtls_aesni_crypt_ecb' is never used. [unusedFunction]
+
+^
+library/aesni.c:590:0: style: The function 'mbedtls_aesni_inverse_key' is never used. [unusedFunction]
+
+^
+library/aesni.c:792:0: style: The function 'mbedtls_aesni_setkey_enc' is never used. [unusedFunction]
+
+^
+library/asn1parse.c:491:0: style: The function 'mbedtls_asn1_find_named_data' is never used. [unusedFunction]
+
+^
+library/asn1parse.c:458:0: style: The function 'mbedtls_asn1_free_named_data' is never used. [unusedFunction]
+
+^
+library/asn1parse.c:220:0: style: The function 'mbedtls_asn1_get_bitstring' is never used. [unusedFunction]
+
+^
+library/asn1parse.c:193:0: style: The function 'mbedtls_asn1_get_enum' is never used. [unusedFunction]
+
+^
+library/asn1write.c:277:0: style: The function 'mbedtls_asn1_write_enum' is never used. [unusedFunction]
+
+^
+library/asn1write.c:311:0: style: The function 'mbedtls_asn1_write_ia5_string' is never used. [unusedFunction]
+
+^
+library/asn1write.c:304:0: style: The function 'mbedtls_asn1_write_printable_string' is never used. [unusedFunction]
+
+^
+library/asn1write.c:298:0: style: The function 'mbedtls_asn1_write_utf8_string' is never used. [unusedFunction]
+
+^
+library/ccm.c:574:0: style: The function 'mbedtls_ccm_star_auth_decrypt' is never used. [unusedFunction]
+
+^
+library/ccm.c:509:0: style: The function 'mbedtls_ccm_star_encrypt_and_tag' is never used. [unusedFunction]
+
+^
+library/cipher.c:1130:0: style: The function 'mbedtls_cipher_check_tag' is never used. [unusedFunction]
+
+^
+library/cmac.c:339:0: style: The function 'mbedtls_cipher_cmac_reset' is never used. [unusedFunction]
+
+^
+library/cipher.c:218:0: style: The function 'mbedtls_cipher_setup_psa' is never used. [unusedFunction]
+
+^
+library/ctr_drbg.c:826:0: style: The function 'mbedtls_ctr_drbg_self_test' is never used. [unusedFunction]
+
+^
+library/ctr_drbg.c:117:0: style: The function 'mbedtls_ctr_drbg_set_reseed_interval' is never used. [unusedFunction]
+
+^
+library/debug.c:127:0: style: The function 'mbedtls_debug_print_buf' is never used. [unusedFunction]
+
+^
+library/debug.c:207:0: style: The function 'mbedtls_debug_print_psa_ec' is never used. [unusedFunction]
+
+^
+library/debug.c:99:0: style: The function 'mbedtls_debug_print_ret' is never used. [unusedFunction]
+
+^
+library/debug.c:431:0: style: The function 'mbedtls_debug_printf_ecdh' is never used. [unusedFunction]
+
+^
+library/des.c:336:0: style: The function 'mbedtls_des_key_check_key_parity' is never used. [unusedFunction]
+
+^
+library/des.c:393:0: style: The function 'mbedtls_des_key_check_weak' is never used. [unusedFunction]
+
+^
+library/des.c:324:0: style: The function 'mbedtls_des_key_set_parity' is never used. [unusedFunction]
+
+^
+library/des.c:846:0: style: The function 'mbedtls_des_self_test' is never used. [unusedFunction]
+
+^
+library/dhm.c:115:0: style: The function 'mbedtls_dhm_get_bitlen' is never used. [unusedFunction]
+
+^
+library/dhm.c:125:0: style: The function 'mbedtls_dhm_get_value' is never used. [unusedFunction]
+
+^
+library/dhm.c:692:0: style: The function 'mbedtls_dhm_self_test' is never used. [unusedFunction]
+
+^
+library/dhm.c:284:0: style: The function 'mbedtls_dhm_set_group' is never used. [unusedFunction]
+
+^
+library/ecdh.c:51:0: style: The function 'mbedtls_ecdh_can_do' is never used. [unusedFunction]
+
+^
+library/ecdh.c:236:0: style: The function 'mbedtls_ecdh_enable_restart' is never used. [unusedFunction]
+
+^
+library/ecdh.c:448:0: style: The function 'mbedtls_ecdh_get_params' is never used. [unusedFunction]
+
+^
+library/ecdsa.c:482:0: style: The function 'mbedtls_ecdsa_sign_det_ext' is never used. [unusedFunction]
+
+^
+library/ecjpake.c:154:0: style: The function 'mbedtls_ecjpake_check' is never used. [unusedFunction]
+
+^
+library/ecjpake.c:843:0: style: The function 'mbedtls_ecjpake_self_test' is never used. [unusedFunction]
+
+^
+library/ecjpake.c:138:0: style: The function 'mbedtls_ecjpake_set_point_format' is never used. [unusedFunction]
+
+^
+library/entropy.c:611:0: style: The function 'mbedtls_entropy_self_test' is never used. [unusedFunction]
+
+^
+library/entropy.c:450:0: style: The function 'mbedtls_entropy_update_seed_file' is never used. [unusedFunction]
+
+^
+library/hkdf.c:28:0: style: The function 'mbedtls_hkdf' is never used. [unusedFunction]
+
+^
+library/hmac_drbg.c:580:0: style: The function 'mbedtls_hmac_drbg_self_test' is never used. [unusedFunction]
+
+^
+library/hmac_drbg.c:301:0: style: The function 'mbedtls_hmac_drbg_set_entropy_len' is never used. [unusedFunction]
+
+^
+library/hmac_drbg.c:309:0: style: The function 'mbedtls_hmac_drbg_set_reseed_interval' is never used. [unusedFunction]
+
+^
+library/hmac_drbg.c:469:0: style: The function 'mbedtls_hmac_drbg_update_seed_file' is never used. [unusedFunction]
+
+^
+library/lmots.c:465:0: style: The function 'mbedtls_lmots_export_public_key' is never used. [unusedFunction]
+
+^
+library/lmots.c:433:0: style: The function 'mbedtls_lmots_import_public_key' is never used. [unusedFunction]
+
+^
+library/lmots.c:549:0: style: The function 'mbedtls_lmots_verify' is never used. [unusedFunction]
+
+^
+library/lms.c:660:0: style: The function 'mbedtls_lms_calculate_public_key' is never used. [unusedFunction]
+
+^
+library/lmots.c:404:0: style: The function 'mbedtls_lms_error_from_psa' is never used. [unusedFunction]
+
+^
+library/lms.c:281:0: style: The function 'mbedtls_lms_export_public_key' is never used. [unusedFunction]
+
+^
+library/lms.c:577:0: style: The function 'mbedtls_lms_generate_private_key' is never used. [unusedFunction]
+
+^
+library/lms.c:246:0: style: The function 'mbedtls_lms_import_public_key' is never used. [unusedFunction]
+
+^
+library/lms.c:547:0: style: The function 'mbedtls_lms_private_init' is never used. [unusedFunction]
+
+^
+library/lms.c:241:0: style: The function 'mbedtls_lms_public_free' is never used. [unusedFunction]
+
+^
+library/lms.c:236:0: style: The function 'mbedtls_lms_public_init' is never used. [unusedFunction]
+
+^
+library/lms.c:711:0: style: The function 'mbedtls_lms_sign' is never used. [unusedFunction]
+
+^
+library/lms.c:313:0: style: The function 'mbedtls_lms_verify' is never used. [unusedFunction]
+
+^
+library/md5.c:393:0: style: The function 'mbedtls_md5_self_test' is never used. [unusedFunction]
+
+^
+library/memory_buffer_alloc.c:523:0: style: The function 'mbedtls_memory_buffer_alloc_count_get' is never used. [unusedFunction]
+
+^
+library/memory_buffer_alloc.c:541:0: style: The function 'mbedtls_memory_buffer_alloc_cur_get' is never used. [unusedFunction]
+
+^
+library/memory_buffer_alloc.c:529:0: style: The function 'mbedtls_memory_buffer_alloc_max_get' is never used. [unusedFunction]
+
+^
+library/memory_buffer_alloc.c:535:0: style: The function 'mbedtls_memory_buffer_alloc_max_reset' is never used. [unusedFunction]
+
+^
+library/memory_buffer_alloc.c:654:0: style: The function 'mbedtls_memory_buffer_alloc_self_test' is never used. [unusedFunction]
+
+^
+library/memory_buffer_alloc.c:504:0: style: The function 'mbedtls_memory_buffer_alloc_status' is never used. [unusedFunction]
+
+^
+library/memory_buffer_alloc.c:498:0: style: The function 'mbedtls_memory_buffer_alloc_verify' is never used. [unusedFunction]
+
+^
+library/memory_buffer_alloc.c:493:0: style: The function 'mbedtls_memory_buffer_set_verify' is never used. [unusedFunction]
+
+^
+library/constant_time.c:823:0: style: The function 'mbedtls_mpi_lt_mpi_ct' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:305:0: style: The function 'mbedtls_mpi_mod_add' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:262:0: style: The function 'mbedtls_mpi_mod_inv' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:176:0: style: The function 'mbedtls_mpi_mod_mul' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:319:0: style: The function 'mbedtls_mpi_mod_random' is never used. [unusedFunction]
+
+^
+library/bignum_mod_raw.c:38:0: style: The function 'mbedtls_mpi_mod_raw_cond_assign' is never used. [unusedFunction]
+
+^
+library/bignum_mod_raw.c:46:0: style: The function 'mbedtls_mpi_mod_raw_cond_swap' is never used. [unusedFunction]
+
+^
+library/bignum_mod_raw.c:216:0: style: The function 'mbedtls_mpi_mod_raw_modulus_to_canonical_rep' is never used. [unusedFunction]
+
+^
+library/bignum_mod_raw.c:278:0: style: The function 'mbedtls_mpi_mod_raw_neg' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:331:0: style: The function 'mbedtls_mpi_mod_read' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:52:0: style: The function 'mbedtls_mpi_mod_residue_release' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:37:0: style: The function 'mbedtls_mpi_mod_residue_setup' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:201:0: style: The function 'mbedtls_mpi_mod_sub' is never used. [unusedFunction]
+
+^
+library/bignum_mod.c:360:0: style: The function 'mbedtls_mpi_mod_write' is never used. [unusedFunction]
+
+^
+library/bignum.c:677:0: style: The function 'mbedtls_mpi_read_binary_le' is never used. [unusedFunction]
+
+^
+library/constant_time.c:751:0: style: The function 'mbedtls_mpi_safe_cond_swap' is never used. [unusedFunction]
+
+^
+library/bignum.c:299:0: style: The function 'mbedtls_mpi_set_bit' is never used. [unusedFunction]
+
+^
+library/bignum.c:240:0: style: The function 'mbedtls_mpi_swap' is never used. [unusedFunction]
+
+^
+library/mps_reader.c:397:0: style: The function 'mbedtls_mps_reader_commit' is never used. [unusedFunction]
+
+^
+library/mps_reader.c:160:0: style: The function 'mbedtls_mps_reader_feed' is never used. [unusedFunction]
+
+^
+library/mps_reader.c:153:0: style: The function 'mbedtls_mps_reader_free' is never used. [unusedFunction]
+
+^
+library/mps_reader.c:229:0: style: The function 'mbedtls_mps_reader_get' is never used. [unusedFunction]
+
+^
+library/mps_reader.c:140:0: style: The function 'mbedtls_mps_reader_init' is never used. [unusedFunction]
+
+^
+library/mps_reader.c:411:0: style: The function 'mbedtls_mps_reader_reclaim' is never used. [unusedFunction]
+
+^
+library/net_sockets.c:469:0: style: The function 'mbedtls_net_poll' is never used. [unusedFunction]
+
+^
+library/net_sockets.c:443:0: style: The function 'mbedtls_net_set_block' is never used. [unusedFunction]
+
+^
+library/net_sockets.c:454:0: style: The function 'mbedtls_net_set_nonblock' is never used. [unusedFunction]
+
+^
+library/oid.c:988:0: style: The function 'mbedtls_oid_from_numeric_string' is never used. [unusedFunction]
+
+^
+library/oid.c:868:0: style: The function 'mbedtls_oid_get_numeric_string' is never used. [unusedFunction]
+
+^
+library/oid.c:772:0: style: The function 'mbedtls_oid_get_oid_by_md' is never used. [unusedFunction]
+
+^
+library/padlock.c:39:0: style: The function 'mbedtls_padlock_has_support' is never used. [unusedFunction]
+
+^
+library/padlock.c:114:0: style: The function 'mbedtls_padlock_xcryptcbc' is never used. [unusedFunction]
+
+^
+library/padlock.c:69:0: style: The function 'mbedtls_padlock_xcryptecb' is never used. [unusedFunction]
+
+^
+library/pk.c:822:0: style: The function 'mbedtls_pk_debug' is never used. [unusedFunction]
+
+^
+library/pkwrite.c:759:0: style: The function 'mbedtls_pk_write_pubkey_pem' is never used. [unusedFunction]
+
+^
+library/pkcs5.c:307:0: style: The function 'mbedtls_pkcs5_pbkdf2_hmac' is never used. [unusedFunction]
+
+^
+library/pkcs5.c:409:0: style: The function 'mbedtls_pkcs5_self_test' is never used. [unusedFunction]
+
+^
+library/pkcs7.c:734:0: style: The function 'mbedtls_pkcs7_signed_data_verify' is never used. [unusedFunction]
+
+^
+library/pkcs7.c:745:0: style: The function 'mbedtls_pkcs7_signed_hash_verify' is never used. [unusedFunction]
+
+^
+library/platform.c:383:0: style: The function 'mbedtls_platform_set_nv_seed' is never used. [unusedFunction]
+
+^
+library/poly1305.c:471:0: style: The function 'mbedtls_poly1305_self_test' is never used. [unusedFunction]
+
+^
+programs/ssl/ssl_test_common_source.c:367:0: style: The function 'mbedtls_print_supported_sig_algs' is never used. [unusedFunction]
+
+^
+tests/src/fake_external_rng_for_test.c:41:0: style: The function 'mbedtls_psa_external_get_random' is never used. [unusedFunction]
+
+^
+library/psa_crypto_storage.c:474:0: style: The function 'mbedtls_psa_storage_inject_entropy' is never used. [unusedFunction]
+
+^
+library/ripemd160.c:454:0: style: The function 'mbedtls_ripemd160_self_test' is never used. [unusedFunction]
+
+^
+library/rsa_alt_helpers.c:237:0: style: The function 'mbedtls_rsa_deduce_crt' is never used. [unusedFunction]
+
+^
+library/rsa_alt_helpers.c:62:0: style: The function 'mbedtls_rsa_deduce_primes' is never used. [unusedFunction]
+
+^
+library/rsa_alt_helpers.c:194:0: style: The function 'mbedtls_rsa_deduce_private_exponent' is never used. [unusedFunction]
+
+^
+library/rsa_alt_helpers.c:384:0: style: The function 'mbedtls_rsa_validate_crt' is never used. [unusedFunction]
+
+^
+library/rsa_alt_helpers.c:271:0: style: The function 'mbedtls_rsa_validate_params' is never used. [unusedFunction]
+
+^
+library/sha1.c:418:0: style: The function 'mbedtls_sha1_self_test' is never used. [unusedFunction]
+
+^
+library/sha256.c:931:0: style: The function 'mbedtls_sha224_self_test' is never used. [unusedFunction]
+
+^
+library/sha256.c:924:0: style: The function 'mbedtls_sha256_self_test' is never used. [unusedFunction]
+
+^
+library/sha512.c:1096:0: style: The function 'mbedtls_sha384_self_test' is never used. [unusedFunction]
+
+^
+library/sha3.c:184:0: style: The function 'mbedtls_sha3_clone' is never used. [unusedFunction]
+
+^
+library/sha3.c:575:0: style: The function 'mbedtls_sha3_self_test' is never used. [unusedFunction]
+
+^
+library/sha512.c:881:0: style: The function 'mbedtls_sha512' is never used. [unusedFunction]
+
+^
+library/sha512.c:1089:0: style: The function 'mbedtls_sha512_self_test' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:5530:0: style: The function 'mbedtls_ssl_check_curve_tls_id' is never used. [unusedFunction]
+
+^
+library/ssl_msg.c:5098:0: style: The function 'mbedtls_ssl_check_pending' is never used. [unusedFunction]
+
+^
+library/ssl_ciphersuites.c:1915:0: style: The function 'mbedtls_ssl_ciphersuite_get_cipher_key_bitlen' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:1628:0: style: The function 'mbedtls_ssl_conf_dtls_badmac_limit' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:3164:0: style: The function 'mbedtls_ssl_conf_legacy_renegotiation' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:3117:0: style: The function 'mbedtls_ssl_conf_max_version' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:3122:0: style: The function 'mbedtls_ssl_conf_min_version' is never used. [unusedFunction]
+
+^
+library/ssl_tls12_server.c:4383:0: style: The function 'mbedtls_ssl_conf_preference_order' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:2917:0: style: The function 'mbedtls_ssl_conf_sig_algs' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:2909:0: style: The function 'mbedtls_ssl_conf_sig_hashes' is never used. [unusedFunction]
+
+^
+library/ssl_msg.c:5093:0: style: The function 'mbedtls_ssl_get_bytes_avail' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:3280:0: style: The function 'mbedtls_ssl_get_ciphersuite_id_from_ssl' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:5662:0: style: The function 'mbedtls_ssl_get_curve_name_from_tls_id' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:5638:0: style: The function 'mbedtls_ssl_get_ecp_group_id_from_tls_id' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:8720:0: style: The function 'mbedtls_ssl_get_key_exchange_md_tls1_2' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:3448:0: style: The function 'mbedtls_ssl_get_max_in_record_payload' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:5619:0: style: The function 'mbedtls_ssl_get_psa_curve_info_from_tls_id' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:5649:0: style: The function 'mbedtls_ssl_get_tls_id_from_ecp_group_id' is never used. [unusedFunction]
+
+^
+library/ssl_tls12_client.c:3498:0: style: The function 'mbedtls_ssl_handshake_client_step' is never used. [unusedFunction]
+
+^
+library/ssl_tls12_server.c:4271:0: style: The function 'mbedtls_ssl_handshake_server_step' is never used. [unusedFunction]
+
+^
+library/ssl_msg.c:2464:0: style: The function 'mbedtls_ssl_recv_flight_completed' is never used. [unusedFunction]
+
+^
+library/ssl_msg.c:4853:0: style: The function 'mbedtls_ssl_send_fatal_handshake_failure' is never used. [unusedFunction]
+
+^
+library/ssl_msg.c:2494:0: style: The function 'mbedtls_ssl_send_flight_completed' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:239:0: style: The function 'mbedtls_ssl_session_copy' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:3775:0: style: The function 'mbedtls_ssl_session_load' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:3701:0: style: The function 'mbedtls_ssl_session_save' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:6589:0: style: The function 'mbedtls_ssl_set_calc_verify_md' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:3217:0: style: The function 'mbedtls_ssl_set_export_keys_cb' is never used. [unusedFunction]
+
+^
+library/ssl_tls13_keys.c:846:0: style: The function 'mbedtls_ssl_tls13_create_psk_binder' is never used. [unusedFunction]
+
+^
+library/ssl_tls13_keys.c:435:0: style: The function 'mbedtls_ssl_tls13_derive_early_secrets' is never used. [unusedFunction]
+
+^
+library/ssl_tls13_client.c:2943:0: style: The function 'mbedtls_ssl_tls13_handshake_client_step' is never used. [unusedFunction]
+
+^
+library/ssl_tls13_generic.c:818:0: style: The function 'mbedtls_ssl_tls13_process_certificate' is never used. [unusedFunction]
+
+^
+library/ssl_tls13_generic.c:349:0: style: The function 'mbedtls_ssl_tls13_process_certificate_verify' is never used. [unusedFunction]
+
+^
+library/ssl_tls13_generic.c:936:0: style: The function 'mbedtls_ssl_tls13_write_certificate' is never used. [unusedFunction]
+
+^
+library/ssl_tls13_generic.c:1137:0: style: The function 'mbedtls_ssl_tls13_write_certificate_verify' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:467:0: style: The function 'mbedtls_ssl_tls_prf' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:9269:0: style: The function 'mbedtls_ssl_write_sig_alg_ext' is never used. [unusedFunction]
+
+^
+tests/src/fake_external_rng_for_test.c:36:0: style: The function 'mbedtls_test_disable_insecure_external_rng' is never used. [unusedFunction]
+
+^
+tests/src/fake_external_rng_for_test.c:31:0: style: The function 'mbedtls_test_enable_insecure_external_rng' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:110:0: style: The function 'mbedtls_test_equal' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:303:0: style: The function 'mbedtls_test_err_add_check' is never used. [unusedFunction]
+
+^
+tests/src/psa_crypto_helpers.c:141:0: style: The function 'mbedtls_test_fail_if_psa_leaking' is never used. [unusedFunction]
+
+^
+tests/src/test_helpers/ssl_helpers.c:101:0: style: The function 'mbedtls_test_free_handshake_options' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:283:0: style: The function 'mbedtls_test_hexcmp' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:225:0: style: The function 'mbedtls_test_hexify' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:96:0: style: The function 'mbedtls_test_info_reset' is never used. [unusedFunction]
+
+^
+tests/src/test_helpers/ssl_helpers.c:57:0: style: The function 'mbedtls_test_init_handshake_options' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:164:0: style: The function 'mbedtls_test_le_s' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:137:0: style: The function 'mbedtls_test_le_u' is never used. [unusedFunction]
+
+^
+tests/src/bignum_helpers.c:120:0: style: The function 'mbedtls_test_mpi_mod_modulus_free_with_limbs' is never used. [unusedFunction]
+
+^
+tests/src/threading_helpers.c:200:0: style: The function 'mbedtls_test_mutex_usage_check' is never used. [unusedFunction]
+
+^
+tests/src/threading_helpers.c:188:0: style: The function 'mbedtls_test_mutex_usage_init' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_asymmetric_encryption.c:143:0: style: The function 'mbedtls_test_opaque_asymmetric_decrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_asymmetric_encryption.c:123:0: style: The function 'mbedtls_test_opaque_asymmetric_encrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:389:0: style: The function 'mbedtls_test_opaque_cipher_abort' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:342:0: style: The function 'mbedtls_test_opaque_cipher_decrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:375:0: style: The function 'mbedtls_test_opaque_cipher_decrypt_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:320:0: style: The function 'mbedtls_test_opaque_cipher_encrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:361:0: style: The function 'mbedtls_test_opaque_cipher_encrypt_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:424:0: style: The function 'mbedtls_test_opaque_cipher_finish' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:396:0: style: The function 'mbedtls_test_opaque_cipher_set_iv' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:407:0: style: The function 'mbedtls_test_opaque_cipher_update' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:774:0: style: The function 'mbedtls_test_opaque_copy_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:454:0: style: The function 'mbedtls_test_opaque_export_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:616:0: style: The function 'mbedtls_test_opaque_export_public_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:96:0: style: The function 'mbedtls_test_opaque_free' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:262:0: style: The function 'mbedtls_test_opaque_generate_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:724:0: style: The function 'mbedtls_test_opaque_get_builtin_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:355:0: style: The function 'mbedtls_test_opaque_import_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:91:0: style: The function 'mbedtls_test_opaque_init' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_agreement.c:136:0: style: The function 'mbedtls_test_opaque_key_agreement' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:418:0: style: The function 'mbedtls_test_opaque_mac_abort' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:276:0: style: The function 'mbedtls_test_opaque_mac_compute' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:376:0: style: The function 'mbedtls_test_opaque_mac_sign_finish' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:308:0: style: The function 'mbedtls_test_opaque_mac_sign_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:356:0: style: The function 'mbedtls_test_opaque_mac_update' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:398:0: style: The function 'mbedtls_test_opaque_mac_verify_finish' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:332:0: style: The function 'mbedtls_test_opaque_mac_verify_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_signature.c:361:0: style: The function 'mbedtls_test_opaque_signature_sign_hash' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_signature.c:244:0: style: The function 'mbedtls_test_opaque_signature_sign_message' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_signature.c:399:0: style: The function 'mbedtls_test_opaque_signature_verify_hash' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_signature.c:311:0: style: The function 'mbedtls_test_opaque_signature_verify_message' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:111:0: style: The function 'mbedtls_test_opaque_size_function' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:35:0: style: The function 'mbedtls_test_platform_setup' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:44:0: style: The function 'mbedtls_test_platform_teardown' is never used. [unusedFunction]
+
+^
+tests/src/test_helpers/ssl_helpers.c:1055:0: style: The function 'mbedtls_test_psa_cipher_encrypt_helper' is never used. [unusedFunction]
+
+^
+tests/src/psa_exercise_key.c:917:0: style: The function 'mbedtls_test_psa_exercise_key' is never used. [unusedFunction]
+
+^
+tests/src/psa_crypto_helpers.c:69:0: style: The function 'mbedtls_test_psa_purge_key_cache' is never used. [unusedFunction]
+
+^
+tests/src/psa_crypto_helpers.c:60:0: style: The function 'mbedtls_test_psa_purge_key_storage' is never used. [unusedFunction]
+
+^
+tests/src/psa_exercise_key.c:956:0: style: The function 'mbedtls_test_psa_usage_to_exercise' is never used. [unusedFunction]
+
+^
+tests/src/bignum_helpers.c:126:0: style: The function 'mbedtls_test_read_mpi' is never used. [unusedFunction]
+
+^
+tests/src/bignum_helpers.c:89:0: style: The function 'mbedtls_test_read_mpi_modulus' is never used. [unusedFunction]
+
+^
+tests/src/psa_crypto_helpers.c:108:0: style: The function 'mbedtls_test_record_status' is never used. [unusedFunction]
+
+^
+tests/src/random.c:79:0: style: The function 'mbedtls_test_rnd_buffer_rand' is never used. [unusedFunction]
+
+^
+tests/src/random.c:114:0: style: The function 'mbedtls_test_rnd_pseudo_rand' is never used. [unusedFunction]
+
+^
+tests/src/random.c:66:0: style: The function 'mbedtls_test_rnd_zero_rand' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:79:0: style: The function 'mbedtls_test_skip' is never used. [unusedFunction]
+
+^
+tests/src/test_helpers/ssl_helpers.c:1105:0: style: The function 'mbedtls_test_ssl_build_transforms' is never used. [unusedFunction]
+
+^
+tests/src/test_helpers/ssl_helpers.c:40:0: style: The function 'mbedtls_test_ssl_log_analyzer' is never used. [unusedFunction]
+
+^
+tests/src/test_helpers/ssl_helpers.c:1768:0: style: The function 'mbedtls_test_ssl_perform_handshake' is never used. [unusedFunction]
+
+^
+tests/src/test_helpers/ssl_helpers.c:1464:0: style: The function 'mbedtls_test_ssl_tls12_populate_session' is never used. [unusedFunction]
+
+^
+tests/src/test_helpers/ssl_helpers.c:1562:0: style: The function 'mbedtls_test_ssl_tls13_populate_session' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:447:0: style: The function 'mbedtls_test_transparent_aead_abort' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:91:0: style: The function 'mbedtls_test_transparent_aead_decrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:184:0: style: The function 'mbedtls_test_transparent_aead_decrypt_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:35:0: style: The function 'mbedtls_test_transparent_aead_encrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:147:0: style: The function 'mbedtls_test_transparent_aead_encrypt_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:347:0: style: The function 'mbedtls_test_transparent_aead_finish' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:249:0: style: The function 'mbedtls_test_transparent_aead_set_lengths' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:220:0: style: The function 'mbedtls_test_transparent_aead_set_nonce' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:309:0: style: The function 'mbedtls_test_transparent_aead_update' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:280:0: style: The function 'mbedtls_test_transparent_aead_update_ad' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_aead.c:388:0: style: The function 'mbedtls_test_transparent_aead_verify' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_asymmetric_encryption.c:78:0: style: The function 'mbedtls_test_transparent_asymmetric_decrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_asymmetric_encryption.c:36:0: style: The function 'mbedtls_test_transparent_asymmetric_encrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:196:0: style: The function 'mbedtls_test_transparent_cipher_abort' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:91:0: style: The function 'mbedtls_test_transparent_cipher_decrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:170:0: style: The function 'mbedtls_test_transparent_cipher_decrypt_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:42:0: style: The function 'mbedtls_test_transparent_cipher_encrypt' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:138:0: style: The function 'mbedtls_test_transparent_cipher_encrypt_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:280:0: style: The function 'mbedtls_test_transparent_cipher_finish' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:217:0: style: The function 'mbedtls_test_transparent_cipher_set_iv' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_cipher.c:239:0: style: The function 'mbedtls_test_transparent_cipher_update' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:538:0: style: The function 'mbedtls_test_transparent_export_public_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:82:0: style: The function 'mbedtls_test_transparent_free' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:203:0: style: The function 'mbedtls_test_transparent_generate_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/hash.c:187:0: style: The function 'mbedtls_test_transparent_hash_abort' is never used. [unusedFunction]
+
+^
+tests/src/drivers/hash.c:97:0: style: The function 'mbedtls_test_transparent_hash_clone' is never used. [unusedFunction]
+
+^
+tests/src/drivers/hash.c:34:0: style: The function 'mbedtls_test_transparent_hash_compute' is never used. [unusedFunction]
+
+^
+tests/src/drivers/hash.c:155:0: style: The function 'mbedtls_test_transparent_hash_finish' is never used. [unusedFunction]
+
+^
+tests/src/drivers/hash.c:70:0: style: The function 'mbedtls_test_transparent_hash_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/hash.c:125:0: style: The function 'mbedtls_test_transparent_hash_update' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:273:0: style: The function 'mbedtls_test_transparent_import_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_management.c:67:0: style: The function 'mbedtls_test_transparent_init' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_key_agreement.c:43:0: style: The function 'mbedtls_test_transparent_key_agreement' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:251:0: style: The function 'mbedtls_test_transparent_mac_abort' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:34:0: style: The function 'mbedtls_test_transparent_mac_compute' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:187:0: style: The function 'mbedtls_test_transparent_mac_sign_finish' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:82:0: style: The function 'mbedtls_test_transparent_mac_sign_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:156:0: style: The function 'mbedtls_test_transparent_mac_update' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:220:0: style: The function 'mbedtls_test_transparent_mac_verify_finish' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_mac.c:119:0: style: The function 'mbedtls_test_transparent_mac_verify_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_pake.c:183:0: style: The function 'mbedtls_test_transparent_pake_abort' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_pake.c:151:0: style: The function 'mbedtls_test_transparent_pake_get_implicit_key' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_pake.c:116:0: style: The function 'mbedtls_test_transparent_pake_input' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_pake.c:66:0: style: The function 'mbedtls_test_transparent_pake_output' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_pake.c:36:0: style: The function 'mbedtls_test_transparent_pake_setup' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_signature.c:333:0: style: The function 'mbedtls_test_transparent_signature_sign_hash' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_signature.c:188:0: style: The function 'mbedtls_test_transparent_signature_sign_message' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_signature.c:381:0: style: The function 'mbedtls_test_transparent_signature_verify_hash' is never used. [unusedFunction]
+
+^
+tests/src/drivers/test_driver_signature.c:268:0: style: The function 'mbedtls_test_transparent_signature_verify_message' is never used. [unusedFunction]
+
+^
+tests/src/helpers.c:265:0: style: The function 'mbedtls_test_unhexify_alloc' is never used. [unusedFunction]
+
+^
+tests/src/psa_crypto_helpers.c:126:0: style: The function 'mbedtls_test_update_key_usage_flags' is never used. [unusedFunction]
+
+^
+tests/src/psa_crypto_helpers.c:39:0: style: The function 'mbedtls_test_uses_key_id' is never used. [unusedFunction]
+
+^
+library/threading.c:169:0: style: The function 'mbedtls_threading_free_alt' is never used. [unusedFunction]
+
+^
+library/threading.c:148:0: style: The function 'mbedtls_threading_set_alt' is never used. [unusedFunction]
+
+^
+library/version.c:27:0: style: The function 'mbedtls_version_get_number' is never used. [unusedFunction]
+
+^
+library/version.c:32:0: style: The function 'mbedtls_version_get_string' is never used. [unusedFunction]
+
+^
+library/x509_crl.c:578:0: style: The function 'mbedtls_x509_crl_parse_file' is never used. [unusedFunction]
+
+^
+library/x509_crt.c:1378:0: style: The function 'mbedtls_x509_crt_parse_der_nocopy' is never used. [unusedFunction]
+
+^
+library/x509_crt.c:1385:0: style: The function 'mbedtls_x509_crt_parse_der_with_ext_cb' is never used. [unusedFunction]
+
+^
+library/x509_crt.c:1538:0: style: The function 'mbedtls_x509_crt_parse_path' is never used. [unusedFunction]
+
+^
+library/x509_crt.c:3138:0: style: The function 'mbedtls_x509_crt_verify' is never used. [unusedFunction]
+
+^
+library/x509_crt.c:3189:0: style: The function 'mbedtls_x509_crt_verify_restartable' is never used. [unusedFunction]
+
+^
+library/x509_csr.c:451:0: style: The function 'mbedtls_x509_csr_parse_file' is never used. [unusedFunction]
+
+^
+library/x509write_crt.c:418:0: style: The function 'mbedtls_x509write_crt_set_authority_key_identifier' is never used. [unusedFunction]
+
+^
+library/x509write_crt.c:411:0: style: The function 'mbedtls_x509write_crt_set_subject_key_identifier' is never used. [unusedFunction]
+
+^
+programs/ssl/ssl_test_common_source.c:51:0: style: The function 'nss_keylog_export' is never used. [unusedFunction]
+
+^
+3rdparty/p256-m/p256-m_driver_entrypoints.c:62:0: style: The function 'p256_transparent_generate_key' is never used. [unusedFunction]
+
+^
+3rdparty/p256-m/p256-m_driver_entrypoints.c:97:0: style: The function 'p256_transparent_key_agreement' is never used. [unusedFunction]
+
+^
+3rdparty/p256-m/p256-m_driver_entrypoints.c:135:0: style: The function 'p256_transparent_sign_hash' is never used. [unusedFunction]
+
+^
+3rdparty/p256-m/p256-m_driver_entrypoints.c:191:0: style: The function 'p256_transparent_verify_hash' is never used. [unusedFunction]
+
+^
+library/psa_crypto_slot_management.c:494:0: style: The function 'psa_close_key' is never used. [unusedFunction]
+
+^
+library/psa_crypto_storage.c:439:0: style: The function 'psa_crypto_load_transaction' is never used. [unusedFunction]
+
+^
+library/psa_crypto_storage.c:421:0: style: The function 'psa_crypto_save_transaction' is never used. [unusedFunction]
+
+^
+library/psa_crypto_storage.c:455:0: style: The function 'psa_crypto_stop_transaction' is never used. [unusedFunction]
+
+^
+library/psa_crypto_se.c:246:0: style: The function 'psa_destroy_se_key' is never used. [unusedFunction]
+
+^
+library/psa_crypto_se.c:182:0: style: The function 'psa_destroy_se_persistent_data' is never used. [unusedFunction]
+
+^
+library/psa_crypto_se.c:192:0: style: The function 'psa_find_se_slot_for_key' is never used. [unusedFunction]
+
+^
+library/psa_crypto_client.c:64:0: style: The function 'psa_get_key_domain_parameters' is never used. [unusedFunction]
+
+^
+library/psa_crypto_se.c:93:0: style: The function 'psa_get_se_driver_context' is never used. [unusedFunction]
+
+^
+library/psa_crypto_se.c:271:0: style: The function 'psa_init_all_se_drivers' is never used. [unusedFunction]
+
+^
+library/psa_crypto_slot_management.c:141:0: style: The function 'psa_initialize_key_slots' is never used. [unusedFunction]
+
+^
+library/psa_crypto_slot_management.c:466:0: style: The function 'psa_open_key' is never used. [unusedFunction]
+
+^
+library/psa_crypto_se.c:303:0: style: The function 'psa_register_se_driver' is never used. [unusedFunction]
+
+^
+library/psa_crypto_storage.c:329:0: style: The function 'psa_save_persistent_key' is never used. [unusedFunction]
+
+^
+library/psa_crypto_client.c:35:0: style: The function 'psa_set_key_domain_parameters' is never used. [unusedFunction]
+
+^
+library/psa_crypto_se.c:368:0: style: The function 'psa_unregister_all_se_drivers' is never used. [unusedFunction]
+
+^
+library/psa_crypto_slot_management.c:422:0: style: The function 'psa_validate_key_location' is never used. [unusedFunction]
+
+^
+library/psa_crypto_slot_management.c:447:0: style: The function 'psa_validate_key_persistence' is never used. [unusedFunction]
+
+^
+library/psa_crypto_slot_management.c:150:0: style: The function 'psa_wipe_all_key_slots' is never used. [unusedFunction]
+
+^
+programs/ssl/ssl_test_common_source.c:210:0: style: The function 'recv_cb' is never used. [unusedFunction]
+
+^
+programs/ssl/ssl_test_common_source.c:238:0: style: The function 'recv_timeout_cb' is never used. [unusedFunction]
+
+^
+programs/ssl/ssl_test_common_source.c:263:0: style: The function 'send_cb' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:6006:0: style: The function 'setup_psa_key_derivation' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:7651:0: style: The function 'ssl_calc_finished_tls_generic' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:6644:0: style: The function 'ssl_calc_verify_tls_legacy' is never used. [unusedFunction]
+
+^
+library/ssl_tls.c:6613:0: style: The function 'ssl_calc_verify_tls_psa' is never used. [unusedFunction]
+
+^
+programs/ssl/ssl_test_common_source.c:334:0: style: The function 'x509_crt_verify_info' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
